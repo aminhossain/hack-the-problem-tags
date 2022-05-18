@@ -1,10 +1,10 @@
 ```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]  
- *  Idea: Bruteforce, ASCII Table  
+ *  author: Amin Hossain [tripplet]    
+ *  Idea: Bruteforce, ASCII Table 
 **/
-
+ 
 #include<bits/stdc++.h>
 #include<string>
     
@@ -32,45 +32,35 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                102
+#define mx                100002
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
 
+int arr[26];
+
 int main() {
-
+ 
     inOut();
-    ll i, j, tc, k, l, n, m;
-    string s1, ans = "";
-    int arrN[26] = {0};
+    int tc, i, j, k, l, n;
+    string str; 
+    char ch;
     
-    cin >> k >> s1;
-    int len = s1.size(), flg = 0, anslen = 0;
+    cin >> str;
+    int size = str.size(), cnt = 0;
 
-
-    FOR(i,0,len) {
-        arrN[s1[i] - 'a']++;
+    FOR(i,0,size) {
+        arr[str[i] - 'a']++;
     }
 
-    FOR(j,0,k) {
-        FOR(i,0,26) {
-            if(arrN[i] >= k) {
-                ans += 'a' + i;
-                if(arrN[i] > k) {
-                    int ext = (arrN[i] - k) / k;
-                    while(ext--) ans += 'a' + i;
-                }
-            } else if(arrN[i] != 0) {
-                flg = 1;
-            }
-        }
-        if(flg == 1) break;
+    FOR(i,0,26) {
+        if(arr[i] % 2 == 1) cnt++;
     }
-    
 
-    if(flg == 1 || ans.size() != s1.size()) cout << -1 << "\n";
-    else cout << ans << "\n";
+    if(cnt <= 1) cout << "First" << "\n";
+    else if(cnt %2 == 0) cout << "Second" << "\n";
+    else cout << "First" << "\n";
 
     return 0;
 }

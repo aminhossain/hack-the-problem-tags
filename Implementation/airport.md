@@ -1,10 +1,10 @@
 ```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]  
- *  Idea: Bruteforce, ASCII Table  
+ *  author: Amin Hossain [tripplet]     
+ *  Idea: Bruteforce
 **/
-
+ 
 #include<bits/stdc++.h>
 #include<string>
     
@@ -32,45 +32,46 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                102
+#define mx                1002
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
 
 int main() {
-
+ 
     inOut();
-    ll i, j, tc, k, l, n, m;
-    string s1, ans = "";
-    int arrN[26] = {0};
+    int i, j, tc, k, l, n, m;
+    string s1, ans = "YES";
+    int arrN[mx], arrM[mx];
     
-    cin >> k >> s1;
-    int len = s1.size(), flg = 0, anslen = 0;
+    cin >> n >> m;
 
-
-    FOR(i,0,len) {
-        arrN[s1[i] - 'a']++;
+    FOR(i,0,m) {
+        cin >> arrM[i], arrN[i] = arrM[i];
     }
 
-    FOR(j,0,k) {
-        FOR(i,0,26) {
-            if(arrN[i] >= k) {
-                ans += 'a' + i;
-                if(arrN[i] > k) {
-                    int ext = (arrN[i] - k) / k;
-                    while(ext--) ans += 'a' + i;
-                }
-            } else if(arrN[i] != 0) {
-                flg = 1;
-            }
-        }
-        if(flg == 1) break;
-    }
-    
+    sort(arrN, arrN+m);
+    sort(arrM, arrM+m);
 
-    if(flg == 1 || ans.size() != s1.size()) cout << -1 << "\n";
-    else cout << ans << "\n";
+    int psgMaxi = n, maxi = 0; i = m-1;
+
+    while(psgMaxi > 0) {
+        i = m-1;
+        if(arrM[i] > 0) maxi += arrM[i], arrM[i]--, --psgMaxi;
+        sort(arrM, arrM+m);
+    }
+
+    int psgMini = n, mini = 0; i = 0;
+
+    while(psgMini > 0) {
+        if(i >= m) i = 0;
+        if(arrN[i] <= 0) i++;
+        mini += arrN[i];
+        arrN[i]--, psgMini--;
+    }
+
+    cout << maxi << " " << mini << "\n";
 
     return 0;
 }

@@ -1,10 +1,10 @@
 ```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]  
- *  Idea: Bruteforce, ASCII Table  
+ *  author: Amin Hossain [tripplet]     
+ *  Idea: Bruteforce + Keep Track
 **/
-
+ 
 #include<bits/stdc++.h>
 #include<string>
     
@@ -39,38 +39,36 @@ typedef unsigned long long int ull;
 void inOut();
 
 int main() {
-
+ 
     inOut();
-    ll i, j, tc, k, l, n, m;
-    string s1, ans = "";
-    int arrN[26] = {0};
+    int i, j, tc, k, l, s, n, m, a, b;
+    string s1, ans = "YES";
+    vector< pair<int, int> >vp;
     
-    cin >> k >> s1;
-    int len = s1.size(), flg = 0, anslen = 0;
+    cin >> s >> n;
 
-
-    FOR(i,0,len) {
-        arrN[s1[i] - 'a']++;
+    FOR(i,0,n) {
+        cin >> a >> b;
+        vp.push_back(make_pair(a, b));
     }
 
-    FOR(j,0,k) {
-        FOR(i,0,26) {
-            if(arrN[i] >= k) {
-                ans += 'a' + i;
-                if(arrN[i] > k) {
-                    int ext = (arrN[i] - k) / k;
-                    while(ext--) ans += 'a' + i;
-                }
-            } else if(arrN[i] != 0) {
-                flg = 1;
+    sort(vp.begin(), vp.end());
+    ll kSum = s, dSum = 0;
+
+    if(vp[0].first < s) {
+        kSum += vp[0].second;
+        FOR(i, 1, n) {
+            if(kSum <= vp[i].first) {
+                ans = "NO";
+                break;
             }
+            kSum += vp[i].second;
         }
-        if(flg == 1) break;
+    } else {
+        ans = "NO";
     }
-    
 
-    if(flg == 1 || ans.size() != s1.size()) cout << -1 << "\n";
-    else cout << ans << "\n";
+    cout << ans << "\n";
 
     return 0;
 }
