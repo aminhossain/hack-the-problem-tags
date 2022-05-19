@@ -2,7 +2,8 @@
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
  *  author: Amin Hossain [tripplet]  
- *  Idea: Bruteforce, ASCII Table  
+ *  Idea: Bruteforce, ASCII Table
+ *  problem-link: https://codeforces.com/contest/230/problem/A  
 **/
 
 #include<bits/stdc++.h>

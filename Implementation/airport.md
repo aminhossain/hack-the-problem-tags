@@ -3,6 +3,7 @@
  *  BIS-MILLAHIR RAHMANIR RAHIM
  *  author: Amin Hossain [tripplet]     
  *  Idea: Bruteforce
+ *  problem-link: https://codeforces.com/contest/218/problem/B
 **/
  
 #include<bits/stdc++.h>

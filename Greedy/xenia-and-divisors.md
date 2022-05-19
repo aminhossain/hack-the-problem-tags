@@ -1,9 +1,8 @@
 ```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]    
- *  Idea: Bruteforce, ASCII Table 
- *  problem-link: https://codeforces.com/problemset/problem/276/B
+ *  author: Amin Hossain [tripplet]     
+ *  problem-link: https://codeforces.com/problemset/problem/342/A
 **/
  
 #include<bits/stdc++.h>
@@ -33,36 +32,54 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                100002
+#define mx                100000
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
-
-int arr[26];
-
+ 
+int arr[mx];
+ 
 int main() {
  
     inOut();
     int tc, i, j, k, l, n;
-    string str; 
-    char ch;
+    char ch; string str;
+ 
+    si(n);
+    FOR(i,0,n) si(arr[i]);
+ 
+    if(n % 3 != 0) {
+        cout << -1 << "\n";
+        return 0;
+    }
+ 
+    sort(arr, arr+n);
+ 
+    int div = n/3;
+    j = 0, k = div;
+    bool flag = true;
+ 
+    for(i=0; i<n, k<n; i++) {
+        if(arr[k] % arr[i] == 0 && arr[k] > arr[i]);
+        else flag = false;
+        if(!flag) break;
+        k++;
+    }
+ 
+    if(!flag) {
+        cout << -1 << "\n";
+    } else {
+        FOR(i,0,div) {
+            j = i;
+            while(j < n) {
+                cout << arr[j] << " ";
+                j += div;
+            }
+            cout << "\n";
+        }
+    }
     
-    cin >> str;
-    int size = str.size(), cnt = 0;
-
-    FOR(i,0,size) {
-        arr[str[i] - 'a']++;
-    }
-
-    FOR(i,0,26) {
-        if(arr[i] % 2 == 1) cnt++;
-    }
-
-    if(cnt <= 1) cout << "First" << "\n";
-    else if(cnt %2 == 0) cout << "Second" << "\n";
-    else cout << "First" << "\n";
-
     return 0;
 }
     

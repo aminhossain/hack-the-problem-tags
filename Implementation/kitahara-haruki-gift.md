@@ -1,9 +1,9 @@
 ```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]    
- *  Idea: Bruteforce, ASCII Table 
- *  problem-link: https://codeforces.com/problemset/problem/276/B
+ *  author: Amin Hossain [tripplet]     
+ *  Idea: bruteforce
+ *  problem-link: https://codeforces.com/problemset/problem/433/A
 **/
  
 #include<bits/stdc++.h>
@@ -33,36 +33,31 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                100002
+#define mx                100000
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
-
-int arr[26];
-
+ 
 int main() {
  
     inOut();
-    int tc, i, j, k, l, n;
-    string str; 
-    char ch;
+    int tc, i, j, k, l, n, x;
+    char ch; string str1, str2;
+    int arr[102], cnt1 = 0, cnt2 = 0;
+ 
+    si(n);
+ 
+    FOR(i,0,n) {
+        si(x);
+        if(x == 100) cnt1++;
+        else cnt2++;
+    }
     
-    cin >> str;
-    int size = str.size(), cnt = 0;
-
-    FOR(i,0,size) {
-        arr[str[i] - 'a']++;
-    }
-
-    FOR(i,0,26) {
-        if(arr[i] % 2 == 1) cnt++;
-    }
-
-    if(cnt <= 1) cout << "First" << "\n";
-    else if(cnt %2 == 0) cout << "Second" << "\n";
-    else cout << "First" << "\n";
-
+    if(cnt1 % 2 == 0 && cnt1 != 0) cout << "YES" << "\n";
+    else if(cnt2 % 2 == 0 && cnt2 == n) cout << "YES" << "\n";
+    else cout << "NO" << "\n";
+ 
     return 0;
 }
     

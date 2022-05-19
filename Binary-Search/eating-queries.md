@@ -3,6 +3,7 @@
  *  BIS-MILLAHIR RAHMANIR RAHIM
  *  author: Amin Hossain [tripplet]    
  *  Idea: sort + binary serach
+ *  problem-link: https://codeforces.com/contest/1676/problem/E
 **/
  
 #include<bits/stdc++.h>
