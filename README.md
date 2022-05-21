@@ -23,6 +23,8 @@ A repository to keep track of good problems that will force you to think and imp
 10 | Yaroslav and Permutations | Codeforces | [Yaroslav and Permutations](https://codeforces.com/contest/296/problem/A) | `math` `Level-2` `*1100` | [GNU C++17](./Math/yaroslav-permutations.md) |
 11 | Fence | Codeforces | [Fence](https://codeforces.com/problemset/problem/363/B) | `bruteforce` `dp` `Level-3` `*1100` | [GNU C++17](./Implementation/fence.md) |
 12 | TL | Codeforces | [TL](https://codeforces.com/problemset/problem/350/A) | `greedy` `dp` `Level-3` `*1200` | [GNU C++17](./Greedy/tl.md) |
-13 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-2` `*1100` | [GNU C++17](./Greedy/robots.md) |
-14 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-3` `*1100` | [GNU C++17](./Binary-Search/eating-queries.md) |
+13| Increase and deceease | Codeforces | [Increase and deceease](https://codeforces.com/contest/246/problem/B) | `math` `Level-3` `*1300` | [GNU C++17](./Math/increase-decrease.md) |
+14| Unlucky Ticket | Codeforces | [Unlucky Ticket](https://codeforces.com/problemset/problem/160/B) | `greedy` `sorting` `Level-3` `*1100` | [GNU C++17](./Implementation/unlucky-numbers.md) |
+15 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-2` `*1100` | [GNU C++17](./Greedy/robots.md) |
+16 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-3` `*1100` | [GNU C++17](./Binary-Search/eating-queries.md) |
 
