@@ -28,6 +28,8 @@ A repository to keep track of good problems that will force you to think and imp
 15 | Unlucky Ticket | Codeforces | [Unlucky Ticket](https://codeforces.com/problemset/problem/160/B) | `greedy` `sorting` `Level-3` `*1100` | [GNU C++17](./Implementation/unlucky-numbers.md) |
 16 | Easy Number Challenge | Codeforces | [Easy Number Challenge](https://codeforces.com/problemset/problem/236/B) | `Number Theory` `Level-3` `*1300` | [GNU C++17](./Number-Theory/easy-number-challenge.md) |
 17 | Cards with Numbers | Codeforces | [Cards with Numbers](https://codeforces.com/problemset/problem/254/A) | `implementation` `sorting` `Level-3` `*1200` | [GNU C++17](./Implementation/cards-with-numbers.md) |
-18 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-2` `*1100` | [GNU C++17](./Greedy/robots.md) |
-19 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-3` `*1100` | [GNU C++17](./Binary-Search/eating-queries.md) |
+18 | Domino | Codeforces | [Domino](https://codeforces.com/problemset/problem/353/A) | `math` `Level-3` `*1200` | [GNU C++17](./Math/domino.md) |
+19 | Rank List | Codeforces | [Rank List](https://codeforces.com/problemset/problem/166/A) | `binary-serach` `sorting` `Level-3` `*1100` | [GNU C++17](./Binary-Search/rank-list.md) |
+20 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-2` `*1100` | [GNU C++17](./Greedy/robots.md) |
+21 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-3` `*1100` | [GNU C++17](./Binary-Search/eating-queries.md) |
 
