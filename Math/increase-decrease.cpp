@@ -1,4 +1,3 @@
-```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
  *  author: Amin Hossain [tripplet]  
@@ -74,5 +73,3 @@ void inOut()
         //freopen("output.txt", "w", stdout);
     #endif
 }
-
-```

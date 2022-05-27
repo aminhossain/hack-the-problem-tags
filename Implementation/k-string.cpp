@@ -1,11 +1,10 @@
-```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]     
- *  Idea: ASCII Table
- *  problem-link: https://codeforces.com/contest/43/problem/B
+ *  author: Amin Hossain [tripplet]  
+ *  Idea: Bruteforce, ASCII Table
+ *  problem-link: https://codeforces.com/contest/230/problem/A  
 **/
- 
+
 #include<bits/stdc++.h>
 #include<string>
     
@@ -33,45 +32,46 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                100000
+#define mx                102
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
- 
+
 int main() {
- 
+
     inOut();
-    int tc, i, j, k, l, n;
-    char ch; string str1, str2;
-    int arrA[26] = {0}, arrB[26] = {0};
-    int arrC[26] = {0}, arrD[26] = {0};
-    bool flag = true;
-   
-    std::getline(cin, str1);
-    std::getline(cin, str2);
- 
-    int len1 = str1.size(), len2 = str2.size();
- 
-    FOR(i,0,len1) {
-        if(str1[i] >= 65 && str1[i] <= 90) arrA[str1[i] -'A']++;
-        else if(str1[i] >= 97 && str1[i] <= 122) arrB[str1[i] -'a']++;
+    ll i, j, tc, k, l, n, m;
+    string s1, ans = "";
+    int arrN[26] = {0};
+    
+    cin >> k >> s1;
+    int len = s1.size(), flg = 0, anslen = 0;
+
+
+    FOR(i,0,len) {
+        arrN[s1[i] - 'a']++;
     }
- 
-    FOR(i,0,len2) {
-        if(str2[i] >= 65 && str2[i] <= 90) arrC[str2[i] -'A']++;
-        else if(str2[i] >= 97 && str2[i] <= 122) arrD[str2[i] -'a']++;
+
+    FOR(j,0,k) {
+        FOR(i,0,26) {
+            if(arrN[i] >= k) {
+                ans += 'a' + i;
+                if(arrN[i] > k) {
+                    int ext = (arrN[i] - k) / k;
+                    while(ext--) ans += 'a' + i;
+                }
+            } else if(arrN[i] != 0) {
+                flg = 1;
+            }
+        }
+        if(flg == 1) break;
     }
     
-    FOR(i,0,26) {
-        if(arrA[i] >= arrC[i] && arrB[i] >= arrD[i]);
-        else flag = false;
-        if(!flag) break;
-    }
- 
-    if(flag) cout << "YES" << "\n";
-    else cout << "NO" << "\n";
- 
+
+    if(flg == 1 || ans.size() != s1.size()) cout << -1 << "\n";
+    else cout << ans << "\n";
+
     return 0;
 }
     
@@ -86,5 +86,3 @@ void inOut()
         //freopen("output.txt", "w", stdout);
     #endif
 }
-
-```

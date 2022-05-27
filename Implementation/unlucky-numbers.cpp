@@ -1,11 +1,10 @@
-```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]    
- *  Idea: bruteforce + sort + C++ STL
- *  problem-link: https://codeforces.com/problemset/problem/166/A
+ *  author: Amin Hossain [tripplet]  
+ *  Idea: bruteforce + sorting
+ *  problem-link: https://codeforces.com/problemset/problem/160/B
 **/
- 
+
 #include<bits/stdc++.h>
 #include<string>
     
@@ -35,46 +34,53 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                1000005
+#define mx                102
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
  
-bool comp(const pair<int,int> &a, const pair<int,int> &b){
-    return (a.first > b.first || (a.first == b.first && a.second < b.second));
-}
- 
 int main() {
  
     inOut();
+    int i, j, tc, k, l, n, m, a, b;
+    string s, s1 = "", s2 = "";
     
-    int i, j, tc, k, l, n, m, x, y, cnt = 0;
-    string s = "";
-    map<pair<int, int>, int> mp;
-    vector<pair<int, int> > vi;
+    cin >> n >> s;
+    int len = n*2;
+
+    FOR(i,0,len) {
+      if(i < n) s1 += s[i];
+      else s2 += s[i];
+    }
+
+    bool unlucky = false;
+    int cnt = 0;
     
-    cin >> n >> m;
- 
+    sort(s1.begin(), s1.end());
+    sort(s2.begin(), s2.end());
+    
     FOR(i,0,n) {
-        cin >> x >> y;
-        mp[{x,y}]++;
+      if(s1[i] < s2[i]) cnt++;
     }
- 
-    for(auto it : mp) {
-        vi.pb(MP(it.first.first, it.first.second));
+
+    if(cnt == n) {
+      outn("YES");
+      return 0;
     }
- 
-    sort(vi.begin(), vi.end(), comp);
- 
-    for(auto it : vi) {
-        cnt += mp[{it.first, it.second}];
-        if(cnt >= m) {
-            cnt = mp[{it.first, it.second}];
-            outn(cnt);
-            break;
-        }
+    
+    sort(s1.begin(), s1.end());
+    reverse(s1.begin(), s1.end());
+    sort(s2.begin(), s2.end());
+    reverse(s2.begin(), s2.end());
+    
+    cnt = 0;
+    FOR(i,0,n) {
+      if(s1[i] > s2[i]) cnt++;
     }
+
+    if(cnt == n) outn("YES");
+    else outn("NO");
     
     return 0;
 }
@@ -90,5 +96,3 @@ void inOut()
         //freopen("output.txt", "w", stdout);
     #endif
 }
-
-```

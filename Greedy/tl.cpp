@@ -1,10 +1,10 @@
-```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]     
- *  problem-link: https://codeforces.com/problemset/problem/342/A
+ *  author: Amin Hossain [tripplet]  
+ *  Idea: greedy
+ *  problem-link: https://codeforces.com/problemset/problem/350/A
 **/
- 
+
 #include<bits/stdc++.h>
 #include<string>
     
@@ -26,60 +26,56 @@ typedef unsigned long long int ull;
 #define sl(n)             scanf("%lld",&n)
 #define sll(x,y)          scanf("%lld %lld",&x,&y)
 #define slll(x,y,z)       scanf("%lld %lld %lld",&x,&y,&z)
+#define outn(x)           cout << x << "\n"
+#define outg(x)           cout << x << " "
+#define outt(x,y)         cout << x << " " << y <<"\n"
 #define FOR(i,x,y)        for(int i=x;i<y;i++)
 #define RFOR(i,x,y)       for(int i=x;i>=y;i--)
 #define CLR(arr,val)      memset(arr,val,sizeof arr);
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                100000
 #define mod               1000000007
-#define base              10000007
-    
+#define mx                200002
+#define base              10000000
+#define mxp               100000
+ 
+ 
+int dx[8] = {1,-1,0,0,-1,-1,1,1};
+int dy[8] = {0,0,-1,1,-1,1,-1,1};
+ 
 void inOut();
  
-int arr[mx];
+int arrR[102], arrW[102];
  
 int main() {
  
     inOut();
-    int tc, i, j, k, l, n;
+    int tc, i, j, k, l, n, m;
     char ch; string str;
  
-    si(n);
-    FOR(i,0,n) si(arr[i]);
+    sii(n, m);
  
-    if(n % 3 != 0) {
-        cout << -1 << "\n";
-        return 0;
-    }
+    FOR(i,0,n) si(arrR[i]);
+    FOR(i,0,m) si(arrW[i]);
  
-    sort(arr, arr+n);
- 
-    int div = n/3;
-    j = 0, k = div;
-    bool flag = true;
- 
-    for(i=0; i<n, k<n; i++) {
-        if(arr[k] % arr[i] == 0 && arr[k] > arr[i]);
-        else flag = false;
-        if(!flag) break;
-        k++;
-    }
- 
-    if(!flag) {
-        cout << -1 << "\n";
-    } else {
-        FOR(i,0,div) {
-            j = i;
-            while(j < n) {
-                cout << arr[j] << " ";
-                j += div;
-            }
-            cout << "\n";
-        }
-    }
+    sort(arrR, arrR+n);
+    sort(arrW, arrW+m);
     
+    if(arrW[0] > arrR[n-1]) {
+        int tl = arrR[0] * 2;
+ 
+        if(arrR[n-1] <= tl && arrW[0] > tl) {
+            outn(tl);
+        } else if(tl <= arrR[n-1]) {
+            outn(arrR[n-1]);
+        } else {
+            outn(-1);
+        }
+    } else {
+        outn(-1);
+    }
+ 
     return 0;
 }
     
@@ -94,5 +90,3 @@ void inOut()
         //freopen("output.txt", "w", stdout);
     #endif
 }
-
-```

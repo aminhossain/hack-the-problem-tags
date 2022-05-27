@@ -1,13 +1,14 @@
-```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]    
- *  Idea: Bruteforce, ASCII Table 
- *  problem-link: https://codeforces.com/problemset/problem/276/B
+ *  author: Amin Hossain [tripplet]  
+ *  Idea: bruteforce
+ *  problem-link: https://codeforces.com/contest/1681/problem/A
 **/
- 
+
 #include<bits/stdc++.h>
 #include<string>
+ 
+//Compiler version g++ 6.3.0
     
 using namespace std;
 typedef long long int ll;
@@ -27,42 +28,57 @@ typedef unsigned long long int ull;
 #define sl(n)             scanf("%lld",&n)
 #define sll(x,y)          scanf("%lld %lld",&x,&y)
 #define slll(x,y,z)       scanf("%lld %lld %lld",&x,&y,&z)
+#define outn(x)           cout << x << "\n"
+#define outt(x, y)        cout << x << " " << y << "\n"
 #define FOR(i,x,y)        for(int i=x;i<y;i++)
 #define RFOR(i,x,y)       for(int i=x;i>=y;i--)
 #define CLR(arr,val)      memset(arr,val,sizeof arr);
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                100002
+#define mx                1000005
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
-
-int arr[26];
-
+ 
 int main() {
  
     inOut();
-    int tc, i, j, k, l, n;
-    string str; 
-    char ch;
     
-    cin >> str;
-    int size = str.size(), cnt = 0;
-
-    FOR(i,0,size) {
-        arr[str[i] - 'a']++;
+    int i, j, tc, k, l, n, m, x;
+    string s = "";
+    
+    cin >> tc;
+    
+    while(tc--) {
+        cin >> n;
+        int arrN[n];
+        FOR(i,0,n) {
+            cin >> arrN[i];
+        }
+      
+        cin >> m;
+        int arrM[m];
+        FOR(i,0,m) {
+            cin >> arrM[i];
+        }
+      
+        sort(arrN, arrN+n);
+        sort(arrM, arrM+m);
+ 
+        if(arrN[n-1] > arrM[m-1]) {
+          outn("Alice");
+          outn("Alice");
+        } else if(arrM[m-1] > arrN[n-1]) {
+          outn("Bob");
+          outn("Bob");
+        } else {
+          outn("Alice");
+          outn("Bob");
+        }
     }
-
-    FOR(i,0,26) {
-        if(arr[i] % 2 == 1) cnt++;
-    }
-
-    if(cnt <= 1) cout << "First" << "\n";
-    else if(cnt %2 == 0) cout << "Second" << "\n";
-    else cout << "First" << "\n";
-
+    
     return 0;
 }
     
@@ -77,5 +93,3 @@ void inOut()
         //freopen("output.txt", "w", stdout);
     #endif
 }
-
-```

@@ -1,9 +1,8 @@
-```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
  *  author: Amin Hossain [tripplet]     
- *  Idea: greedy
- *  problem-link: https://codeforces.com/contest/1680/problem/B
+ *  Idea: Bruteforce + Keep Track
+ *  problem-link: https://codeforces.com/contest/230/problem/A
 **/
  
 #include<bits/stdc++.h>
@@ -31,52 +30,48 @@ typedef unsigned long long int ull;
 #define RFOR(i,x,y)       for(int i=x;i>=y;i--)
 #define CLR(arr,val)      memset(arr,val,sizeof arr);
 #define TC(case,t)        for(case=1;case<=t;case++)
-#define out(x)            cout << x << "\n"
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                100000
+#define mx                102
 #define mod               1000000007
 #define base              10000007
- 
-int dx[8] = {1,-1,0,0,-1,-1,1,1};
-int dy[8] = {0,0,-1,1,-1,1,-1,1};
     
 void inOut();
- 
+
 int main() {
  
     inOut();
-    int tc, i, j, k, l;
-    char ch; string str, str2;
-    char re[5][5];
- 
-    cin >> tc;
- 
-    while(tc--) {
-        int n, m, cnt = 0;
-        bool flag = true;
-        vector<string> vs;
- 
-        cin >> n >> m;
-        FOR(i,0,n) cin >> str, vs.pb(str);
-        int poi = INT_MAX, jj = 0, poj = INT_MAX, ii = 0;
-        
-        FOR(i,0,n) {
-            FOR(j,0,m) {
-                if(vs[i][j] == 'R') {
-                    if(i < poi) poi = i, jj = j;
-                    if(j < poj) poj = j, ii = i;
-                }
-            }
-        }
- 
-        if(poi == ii && poj == jj) out("YES");
-        else out("NO");
+    int i, j, tc, k, l, s, n, m, a, b;
+    string s1, ans = "YES";
+    vector< pair<int, int> >vp;
+    
+    cin >> s >> n;
+
+    FOR(i,0,n) {
+        cin >> a >> b;
+        vp.push_back(make_pair(a, b));
     }
- 
+
+    sort(vp.begin(), vp.end());
+    ll kSum = s, dSum = 0;
+
+    if(vp[0].first < s) {
+        kSum += vp[0].second;
+        FOR(i, 1, n) {
+            if(kSum <= vp[i].first) {
+                ans = "NO";
+                break;
+            }
+            kSum += vp[i].second;
+        }
+    } else {
+        ans = "NO";
+    }
+
+    cout << ans << "\n";
+
     return 0;
 }
-    
     
     
 void inOut()
@@ -89,5 +84,3 @@ void inOut()
         //freopen("output.txt", "w", stdout);
     #endif
 }
-
-```

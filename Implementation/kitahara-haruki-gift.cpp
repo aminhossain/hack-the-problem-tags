@@ -1,9 +1,8 @@
-```C++
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
  *  author: Amin Hossain [tripplet]     
- *  Idea: Bruteforce + Keep Track
- *  problem-link: https://codeforces.com/contest/230/problem/A
+ *  Idea: bruteforce
+ *  problem-link: https://codeforces.com/problemset/problem/433/A
 **/
  
 #include<bits/stdc++.h>
@@ -33,44 +32,31 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define pi                acos(-1) // 3.1415926535897932
-#define mx                102
+#define mx                100000
 #define mod               1000000007
 #define base              10000007
     
 void inOut();
-
+ 
 int main() {
  
     inOut();
-    int i, j, tc, k, l, s, n, m, a, b;
-    string s1, ans = "YES";
-    vector< pair<int, int> >vp;
-    
-    cin >> s >> n;
-
+    int tc, i, j, k, l, n, x;
+    char ch; string str1, str2;
+    int arr[102], cnt1 = 0, cnt2 = 0;
+ 
+    si(n);
+ 
     FOR(i,0,n) {
-        cin >> a >> b;
-        vp.push_back(make_pair(a, b));
+        si(x);
+        if(x == 100) cnt1++;
+        else cnt2++;
     }
-
-    sort(vp.begin(), vp.end());
-    ll kSum = s, dSum = 0;
-
-    if(vp[0].first < s) {
-        kSum += vp[0].second;
-        FOR(i, 1, n) {
-            if(kSum <= vp[i].first) {
-                ans = "NO";
-                break;
-            }
-            kSum += vp[i].second;
-        }
-    } else {
-        ans = "NO";
-    }
-
-    cout << ans << "\n";
-
+    
+    if(cnt1 % 2 == 0 && cnt1 != 0) cout << "YES" << "\n";
+    else if(cnt2 % 2 == 0 && cnt2 == n) cout << "YES" << "\n";
+    else cout << "NO" << "\n";
+ 
     return 0;
 }
     
@@ -85,5 +71,3 @@ void inOut()
         //freopen("output.txt", "w", stdout);
     #endif
 }
-
-```
