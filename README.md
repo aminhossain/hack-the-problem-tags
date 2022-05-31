@@ -34,6 +34,7 @@ A repository to keep track of good problems that will force you to think and imp
 21 | Building Permutation | Codeforces | [Building Permutation](https://codeforces.com/contest/285/problem/C) | `greedy` `Level-3` `*1200` | [GNU C++17](./Greedy/building-permutation.cpp) |
 22 | Kuriyama Mirai's Stones | Codeforces | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | `dp` `implementation` `Level-3` `*1200` | [GNU C++17](./Implementation/kuriyama-mirai-stones.cpp) |
 23 | T-Primes | Codeforces | [T-Primes](https://codeforces.com/contest/230/problem/B) | `number-theory` `binary-search` `Level-3` `*1300` | [GNU C++17](./Number-Theory/t-primes.cpp) |
-24 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-2` `*1100` | [GNU C++17](./Greedy/robots.cpp) |
-25 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-3` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+24 | Flipping Game | Codeforces | [Flipping Game](https://codeforces.com/problemset/problem/327/A) | `dp` `btute-force` `Level-3` `*1200` | [GNU C++17](./Implementation/flipping-game.cpp) |
+25 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-2` `*1100` | [GNU C++17](./Greedy/robots.cpp) |
+26 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-3` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
 
