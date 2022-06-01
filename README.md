@@ -32,9 +32,13 @@ A repository to keep track of good problems that will force you to think and imp
 19 | Rank List | Codeforces | [Rank List](https://codeforces.com/problemset/problem/166/A) | `binary-serach` `sorting` `Level-3` `*1100` | [GNU C++17](./Binary-Search/rank-list.cpp) |
 20 | IQ Test | Codeforces | [IQ Test](https://codeforces.com/problemset/problem/166/A) | `bruteforce` `Level-3` `*1100` | [GNU C++17](./Implementation/iq-test.cpp) |
 21 | Building Permutation | Codeforces | [Building Permutation](https://codeforces.com/contest/285/problem/C) | `greedy` `Level-3` `*1200` | [GNU C++17](./Greedy/building-permutation.cpp) |
-22 | Kuriyama Mirai's Stones | Codeforces | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | `dp` `implementation` `Level-3` `*1200` | [GNU C++17](./Implementation/kuriyama-mirai-stones.cpp) |
-23 | T-Primes | Codeforces | [T-Primes](https://codeforces.com/contest/230/problem/B) | `number-theory` `binary-search` `Level-3` `*1300` | [GNU C++17](./Number-Theory/t-primes.cpp) |
-24 | Flipping Game | Codeforces | [Flipping Game](https://codeforces.com/problemset/problem/327/A) | `dp` `btute-force` `Level-3` `*1200` | [GNU C++17](./Implementation/flipping-game.cpp) |
-25 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-2` `*1100` | [GNU C++17](./Greedy/robots.cpp) |
-26 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-3` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+22 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-3` `*1100` | [GNU C++17](./Greedy/robots.cpp) |
+23 | Kuriyama Mirai's Stones | Codeforces | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | `dp` `implementation` `Level-3` `*1200` | [GNU C++17](./Implementation/kuriyama-mirai-stones.cpp) |
+24 | T-Primes | Codeforces | [T-Primes](https://codeforces.com/contest/230/problem/B) | `number-theory` `binary-search` `Level-3` `*1300` | [GNU C++17](./Number-Theory/t-primes.cpp) |
+25 | Flipping Game | Codeforces | [Flipping Game](https://codeforces.com/problemset/problem/327/A) | `dp` `btute-force` `Level-3` `*1200` | [GNU C++17](./Implementation/flipping-game.cpp) |
+26 | Path Parity | CodeChef | [Path Parity](https://www.codechef.com/START41D/problems/PATHPAR) | `implementation` `Level-3` `*1100` | [GNU C++17](./Implementation/path-parity.cpp) |
+27 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
+28 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
+29 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
+30 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
 
