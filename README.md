@@ -23,22 +23,25 @@ A repository to keep track of good problems that will force you to think and imp
 10 | Yaroslav and Permutations | Codeforces | [Yaroslav and Permutations](https://codeforces.com/contest/296/problem/A) | `math` `Level-2` `*1100` | [GNU C++17](./Math/yaroslav-permutations.cpp) |
 11 | Fence | Codeforces | [Fence](https://codeforces.com/problemset/problem/363/B) | `bruteforce` `dp` `Level-3` `*1100` | [GNU C++17](./Implementation/fence.cpp) |
 12 | Game with Cards | Codeforces | [Game with Cards](https://codeforces.com/contest/1681/problem/A) | `implementation` `Level-2` `*1100` | [GNU C++17](./Implementation/game-with-cards.cpp) |
-13 | TL | Codeforces | [TL](https://codeforces.com/problemset/problem/350/A) | `greedy` `dp` `Level-3` `*1200` | [GNU C++17](./Greedy/tl.cpp) |
-14 | Increase and deceease | Codeforces | [Increase and deceease](https://codeforces.com/contest/246/problem/B) | `math` `Level-3` `*1300` | [GNU C++17](./Math/increase-decrease.cpp) |
-15 | Unlucky Ticket | Codeforces | [Unlucky Ticket](https://codeforces.com/problemset/problem/160/B) | `greedy` `sorting` `Level-3` `*1100` | [GNU C++17](./Implementation/unlucky-numbers.cpp) |
-16 | Easy Number Challenge | Codeforces | [Easy Number Challenge](https://codeforces.com/problemset/problem/236/B) | `Number Theory` `Level-3` `*1300` | [GNU C++17](./Number-Theory/easy-number-challenge.cpp) |
-17 | Cards with Numbers | Codeforces | [Cards with Numbers](https://codeforces.com/problemset/problem/254/A) | `implementation` `sorting` `Level-3` `*1200` | [GNU C++17](./Implementation/cards-with-numbers.cpp) |
-18 | Domino | Codeforces | [Domino](https://codeforces.com/problemset/problem/353/A) | `math` `Level-3` `*1200` | [GNU C++17](./Math/domino.cpp) |
-19 | Rank List | Codeforces | [Rank List](https://codeforces.com/problemset/problem/166/A) | `binary-serach` `sorting` `Level-3` `*1100` | [GNU C++17](./Binary-Search/rank-list.cpp) |
-20 | IQ Test | Codeforces | [IQ Test](https://codeforces.com/problemset/problem/166/A) | `bruteforce` `Level-3` `*1100` | [GNU C++17](./Implementation/iq-test.cpp) |
-21 | Building Permutation | Codeforces | [Building Permutation](https://codeforces.com/contest/285/problem/C) | `greedy` `Level-3` `*1200` | [GNU C++17](./Greedy/building-permutation.cpp) |
-22 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-3` `*1100` | [GNU C++17](./Greedy/robots.cpp) |
-23 | Kuriyama Mirai's Stones | Codeforces | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | `dp` `implementation` `Level-3` `*1200` | [GNU C++17](./Implementation/kuriyama-mirai-stones.cpp) |
-24 | T-Primes | Codeforces | [T-Primes](https://codeforces.com/contest/230/problem/B) | `number-theory` `binary-search` `Level-3` `*1300` | [GNU C++17](./Number-Theory/t-primes.cpp) |
-25 | Flipping Game | Codeforces | [Flipping Game](https://codeforces.com/problemset/problem/327/A) | `dp` `btute-force` `Level-3` `*1200` | [GNU C++17](./Implementation/flipping-game.cpp) |
-26 | Path Parity | CodeChef | [Path Parity](https://www.codechef.com/START41D/problems/PATHPAR) | `implementation` `Level-3` `*1100` | [GNU C++17](./Implementation/path-parity.cpp) |
-27 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
-28 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
-29 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
-30 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+13 | Beat The Odds | Codeforces | [Beat The Odds](https://codeforces.com/contest/1691/problem/A) | `greedy` `Level-2` `*1100` | [GNU C++14](./Greedy/beat-the-odds.cpp) |
+14 | TL | Codeforces | [TL](https://codeforces.com/problemset/problem/350/A) | `greedy` `dp` `Level-3` `*1200` | [GNU C++17](./Greedy/tl.cpp) |
+15 | Increase and deceease | Codeforces | [Increase and deceease](https://codeforces.com/contest/246/problem/B) | `math` `Level-3` `*1300` | [GNU C++17](./Math/increase-decrease.cpp) |
+16 | Unlucky Ticket | Codeforces | [Unlucky Ticket](https://codeforces.com/problemset/problem/160/B) | `greedy` `sorting` `Level-3` `*1100` | [GNU C++17](./Implementation/unlucky-numbers.cpp) |
+17 | Easy Number Challenge | Codeforces | [Easy Number Challenge](https://codeforces.com/problemset/problem/236/B) | `Number Theory` `Level-3` `*1300` | [GNU C++17](./Number-Theory/easy-number-challenge.cpp) |
+18 | Cards with Numbers | Codeforces | [Cards with Numbers](https://codeforces.com/problemset/problem/254/A) | `implementation` `sorting` `Level-3` `*1200` | [GNU C++17](./Implementation/cards-with-numbers.cpp) |
+19 | Domino | Codeforces | [Domino](https://codeforces.com/problemset/problem/353/A) | `math` `Level-3` `*1200` | [GNU C++17](./Math/domino.cpp) |
+20 | Rank List | Codeforces | [Rank List](https://codeforces.com/problemset/problem/166/A) | `binary-serach` `sorting` `Level-3` `*1100` | [GNU C++17](./Binary-Search/rank-list.cpp) |
+21 | IQ Test | Codeforces | [IQ Test](https://codeforces.com/problemset/problem/166/A) | `bruteforce` `Level-3` `*1100` | [GNU C++17](./Implementation/iq-test.cpp) |
+22 | Building Permutation | Codeforces | [Building Permutation](https://codeforces.com/contest/285/problem/C) | `greedy` `Level-3` `*1200` | [GNU C++17](./Greedy/building-permutation.cpp) |
+23 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-3` `*1100` | [GNU C++17](./Greedy/robots.cpp) |
+24 | Kuriyama Mirai's Stones | Codeforces | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | `dp` `implementation` `Level-3` `*1200` | [GNU C++17](./Implementation/kuriyama-mirai-stones.cpp) |
+25 | T-Primes | Codeforces | [T-Primes](https://codeforces.com/contest/230/problem/B) | `number-theory` `binary-search` `Level-3` `*1300` | [GNU C++17](./Number-Theory/t-primes.cpp) |
+26 | Flipping Game | Codeforces | [Flipping Game](https://codeforces.com/problemset/problem/327/A) | `dp` `btute-force` `Level-3` `*1200` | [GNU C++17](./Implementation/flipping-game.cpp) |
+27 | Path Parity | CodeChef | [Path Parity](https://www.codechef.com/START41D/problems/PATHPAR) | `implementation` `Level-3` `*1100` | [GNU C++17](./Implementation/path-parity.cpp) |
+28 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
+29 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
+30 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
+31 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
+32 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
+33 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
 
