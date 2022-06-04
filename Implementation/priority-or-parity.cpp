@@ -27,7 +27,7 @@ typedef unsigned long long int ull;
 #define sll(x,y)          scanf("%lld %lld",&x,&y)
 #define slll(x,y,z)       scanf("%lld %lld %lld",&x,&y,&z)
 #define ci(n)             cin >> n
-#define cii(x,y)          cin >> x >> y;
+#define cii(x,y)          cin >> x >> y
 #define ciii(x,y,z)       cin >> x >> y >> z
 #define outn(x)           cout << x << "\n"
 #define outt(x, y)        cout << x << " " << y << "\n"

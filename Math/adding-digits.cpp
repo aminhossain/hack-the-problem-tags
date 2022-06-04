@@ -26,7 +26,7 @@ typedef unsigned long long int ull;
 #define sii(x,y)          scanf("%d %d",&x,&y)
 #define siii(x,y,z)       scanf("%d %d %d",&x,&y,&z)
 #define ci(n)             cin >> n
-#define cii(x,y)          cin >> x >> y;
+#define cii(x,y)          cin >> x >> y
 #define ciii(x,y,z)       cin >> x >> y >> z
 #define sl(n)             scanf("%lld",&n)
 #define sll(x,y)          scanf("%lld %lld",&x,&y)
