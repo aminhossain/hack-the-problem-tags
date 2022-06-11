@@ -41,14 +41,18 @@ A repository to keep track of good problems that will force you to think and imp
 28 | Candy Bags | Codeforces | [Candy Bags](https://codeforces.com/problemset/problem/334/A) | `implementation` `Level-3` `*1000` | [GNU C++14](./Implementation/candy-bags.cpp) |
 29 | Lunch Rush | Codeforces | [Lunch Rush](https://codeforces.com/contest/276/problem/A) | `implementation` `Level-3` `*900` | [GNU C++14](./Implementation/lunch-rush.cpp) |
 30 | Cakeminator | Codeforces | [Cakeminator](https://codeforces.com/problemset/problem/330/A) | `implementation` `Level-3` `*800` | [GNU C++14](./Implementation/cakeminator.cpp) |
-31 | Jeff and Periods | Codeforces | [Jeff and Periods](https://codeforces.com/contest/352/problem/B) | `implementation` `Level-3` `*1300` | [GNU C++14](./Implementation/jeff-and-periods.cpp) |
-32 | Array Decrements | Codeforces | [Array Decrements](https://codeforces.com/contest/1690/problem/B) | `greedy`, `Level-3` `*1000` | [GNU C++14](./Greedy/array-decrements.cpp) |
-33 | Life Without Zeros | Codeforces | [Life Without Zeros](https://codeforces.com/problemset/problem/75/A) | `implementation`, `Level-3` `*1000` | [GNU C++14](./Implementation/life-without-zeros.cpp) |
-34 | Black and White Stripe | Codeforces | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | `two-pointer`, `Level-3` `*1100` | [GNU C++14](./Implementation/black-white-stripe.cpp) |
-35 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
-36 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
-37 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
-38 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
-39 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
-40 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+31 | Prof. Slim | Codeforces | [Prof. Slim](https://codeforces.com/contest/1670/problem/A) | `implementation` `greedy` `Level-3` `*800` | [GNU C++14](./Implementation/prof-slim.cpp) |
+32 | Jeff and Periods | Codeforces | [Jeff and Periods](https://codeforces.com/contest/352/problem/B) | `implementation` `Level-3` `*1300` | [GNU C++14](./Implementation/jeff-and-periods.cpp) |
+33 | Array Decrements | Codeforces | [Array Decrements](https://codeforces.com/contest/1690/problem/B) | `greedy`, `Level-3` `*1000` | [GNU C++14](./Greedy/array-decrements.cpp) |
+34 | Life Without Zeros | Codeforces | [Life Without Zeros](https://codeforces.com/problemset/problem/75/A) | `implementation`, `Level-3` `*1000` | [GNU C++14](./Implementation/life-without-zeros.cpp) |
+35 | Black and White Stripe | Codeforces | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | `two-pointer`, `Level-3` `*1100` | [GNU C++14](./Implementation/black-white-stripe.cpp) |
+36 | Equal Strings | CodeChef | [Equal Strings](https://www.codechef.com/JUNE221D/problems/EQUALSTRING) | `string` `implementation` `Level-3` `*1000` | [GNU C++14](./Implementation/equal-string.cpp) |
+37 | Divisible by i | CodeChef | [Divisible by i](https://www.codechef.com/JUNE221D/problems/DIVBYI) | `number-theory` `Level-3` `*1000` | [GNU C++14](./Number-Theory/divisible-by.cpp) |
+38 | Mystic Permutation | Codeforces | [Mystic Permutation](https://codeforces.com/contest/1689/problem/B) | `greedy` `Level-3` `*1000` | [GNU C++14](./Greedy/mystic-permutation.cpp) |
+39 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
+40 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
+41 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
+42 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
+43 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
+44 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
 
