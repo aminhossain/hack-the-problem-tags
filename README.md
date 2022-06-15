@@ -52,10 +52,13 @@ A repository to keep track of good problems that will force you to think and imp
 39 | Possible GCD | CodeChef | [Possible GCD](https://www.codechef.com/JUNE221D/problems/DISTGCD/) | `number-theory` `Level-3` `*1100` | [GNU C++14](./Number-Theory/possible-gcd.cpp) |
 40 | Reduce to zero | CodeChef | [Reduce to zero](https://www.codechef.com/JUNE221D/problems/RED0) | `math` `Level-3` `*1100` | [GNU C++14](./Math/reduce-to-zero.cpp) |
 41 | Array | Codeforces | [Array](https://codeforces.com/contest/300/problem/A) | `implementation` `Level-3` `*1100` | [GNU C++14](./Implementation/array.cpp) |
-42 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
-43 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
-44 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
-45 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
-46 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
-47 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+42 | Sum of Digits | Codeforces | [Sum of Digits](http://codeforces.com/problemset/problem/102/B) | `implementation` `Level-3` `*1000` | [GNU C++14](./Implementation/sum-of-digits.cpp) |
+43 | Laptops | Codeforces | [Laptops](https://codeforces.com/problemset/problem/456/A) | `implementation` `sorting` `Level-3` `*1100` | [GNU C++14](./Implementation/laptops.cpp) |
+44 | The Clock | Codeforces | [The Clock](https://codeforces.com/contest/1692/problem/D) | `bruteforce` `dfs&similar` `Level-3` `*1100` | [GNU C++14](./Implementation/the-clock.cpp) |
+45 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
+46 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
+47 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
+48 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
+49 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
+50 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
 
