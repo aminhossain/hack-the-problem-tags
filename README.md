@@ -62,12 +62,14 @@ A repository to keep track of good problems that will force you to think and imp
 49 | The Fibonacci Segment | Codeforces | [The Fibonacci Segment](https://codeforces.com/contest/365/problem/B) | `implementation` `Level-3` `*1100` | [GNU C++14](./Implementation/the-fibonacci-segment.cpp) |
 50 | Palindromic Numbers | Codeforces | [Palindromic Numbers](https://codeforces.com/contest/1700/problem/B) | `math` `implementation` `Level-3` `*1100` | [GNU C++14](./Math/palindromic-numbers.cpp) |
 51 | Jogging | CodeChef | [Jogging](https://www.codechef.com/START44D/problems/JOGGING) | `math` `number-theory` `Level-3` `*1100` | [GNU C++14](./Number-Theory/jogging.cpp) |
-52 | Roma and Changing Signs | CodeChef | [Roma and Changing Signs](https://codeforces.com/contest/262/problem/B) | `math` `greedy` `Level-3` `*1200` | [GNU C++14](./Greedy/roma-and-changing-signs.cpp) |
-53 | Dima and Staircase | CodeChef | [Dima and Staircase](https://codeforces.com/problemset/problem/272/C) | `implementation` `Level-3` `*1500` | [GNU C++14](./Implementation/dima-and-staircase.cpp) |
-54 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
-55 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
-56 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
-57 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
-58 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
-59 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+52 | Reversal Sorting | CodeChef | [Reversal Sorting](https://www.codechef.com/problems-old/REVSORT) | `implementation` `Level-3` `*1200` | [GNU C++14](./Implementation/reversal-sorting.cpp) |
+54 | Roma and Changing Signs | CodeChef | [Roma and Changing Signs](https://codeforces.com/contest/262/problem/B) | `math` `greedy` `Level-3` `*1200` | [GNU C++14](./Greedy/roma-and-changing-signs.cpp) |
+55 | Sereja and Array | Codeforces | [Sereja and Array](https://codeforces.com/problemset/problem/315/B) | `implementation` `Level-3` `*1200` | [GNU C++14](./Implementation/sereja-and-array.cpp) |
+56 | Dima and Staircase | Codeforces | [Dima and Staircase](https://codeforces.com/problemset/problem/272/C) | `implementation` `Level-3` `*1500` | [GNU C++14](./Implementation/dima-and-staircase.cpp) |
+57 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
+58 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
+59 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
+60 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
+61 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
+62 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
 
