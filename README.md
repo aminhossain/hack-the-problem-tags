@@ -71,5 +71,7 @@ A repository to keep track of good problems that will force you to think and imp
 59 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
 60 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
 61 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
-62 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+62 | Ilya and Queries | Codeforces | [Ilya and Queries](https://codeforces.com/problemset/problem/313/B) | `dp` `implementation` `Level-4` `*1100` | [GNU C++14](./Implementation/Ilya-and-queries.cpp) |
+63 | Little Dima and Equation | Codeforces | [Little Dima and Equation](https://codeforces.com/contest/460/problem/B) | `math` `number-theory` `Level-4` `*1500` | [GNU C++14](./Number-Theory/little-dima-and-equation.cpp) |
+64 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
 
