@@ -9,69 +9,456 @@ A repository to keep track of good problems that will force you to think and imp
 
 ## Contents
 
-| # | Title | Online Judge | Problem Link | Tags | Solution |
-|---| -----| ------------ | ------------ | ---- | -------- | 
-1 | K-String | Codeforces | [K-String](https://codeforces.com/contest/230/problem/A) | `implementation` `Level-2` `*800` | [GNU C++17](./Implementation/k-string.cpp) |
-2 | Dragons | Codeforces | [Dragons](https://codeforces.com/contest/230/problem/A) | `greedy` `sort` `Level-2` `*1000` | [GNU C++17](./Greedy/dragons.cpp) |
-3 | Airport | Codeforces | [Airport](https://codeforces.com/contest/218/problem/B) | `implementation` `constructive-algo` `Level-2` `*1100` | [GNU C++17](./Implementation/airport.cpp) |
-4 | Little Girl and Game | Codeforces | [Little Girl and Game](https://codeforces.com/problemset/problem/276/B) | `greedy` `observation` `Level-2` `*1300` | [GNU C++17](./Greedy/little-girl-and-game.cpp) |
-5 | Xenia and Divisors | Codeforces | [Xenia and Divisors](https://codeforces.com/problemset/problem/342/A) | `greedy` `Level-2` `*1200` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
-6 | Letter | Codeforces | [Letter](https://codeforces.com/contest/43/problem/B) | `string` `implementation` `Level-2` `*1100` | [GNU C++17](./String/letter.cpp) |
-7 | Kitahara Haruki's Gift | Codeforces | [Kitahara Haruki's Gift](https://codeforces.com/problemset/problem/433/A) | `bruteforce` `implementation` `Level-2` `*1100` | [GNU C++17](./Implementation/kitahara-haruki-gift.cpp) |
-8 | Stone Age Problem | Codeforces | [Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | `implementation` `Level-2` `*1200` | [GNU C++17](./Implementation/stone-age-problem.cpp) |
-9 | Big Segment | Codeforces | [Big Segment](https://codeforces.com/contest/242/problem/B) | `implementation` `Level-2` `*1100` | [GNU C++17](./Implementation/big-segment.cpp) |
-10 | Yaroslav and Permutations | Codeforces | [Yaroslav and Permutations](https://codeforces.com/contest/296/problem/A) | `math` `Level-2` `*1100` | [GNU C++17](./Math/yaroslav-permutations.cpp) |
-11 | Fence | Codeforces | [Fence](https://codeforces.com/problemset/problem/363/B) | `bruteforce` `dp` `Level-3` `*1100` | [GNU C++17](./Implementation/fence.cpp) |
-12 | Game with Cards | Codeforces | [Game with Cards](https://codeforces.com/contest/1681/problem/A) | `implementation` `Level-2` `*1100` | [GNU C++17](./Implementation/game-with-cards.cpp) |
-13 | Beat The Odds | Codeforces | [Beat The Odds](https://codeforces.com/contest/1691/problem/A) | `greedy` `Level-2` `*1100` | [GNU C++14](./Greedy/beat-the-odds.cpp) |
-14 | Zero Ones Equal One Zeros | CodeChef | [Zero Ones Equal One Zeros](https://www.codechef.com/LTIME109D/problems/ZOOZ) | `string` `Level-2` `*1000` | [GNU C++14](./String/zero-one-equal.cpp) |
-15 | TL | Codeforces | [TL](https://codeforces.com/problemset/problem/350/A) | `greedy` `dp` `Level-3` `*1200` | [GNU C++17](./Greedy/tl.cpp) |
-16 | Increase and deceease | Codeforces | [Increase and deceease](https://codeforces.com/contest/246/problem/B) | `math` `Level-3` `*1300` | [GNU C++17](./Math/increase-decrease.cpp) |
-17 | Unlucky Ticket | Codeforces | [Unlucky Ticket](https://codeforces.com/problemset/problem/160/B) | `greedy` `sorting` `Level-3` `*1100` | [GNU C++17](./Implementation/unlucky-numbers.cpp) |
-18 | Easy Number Challenge | Codeforces | [Easy Number Challenge](https://codeforces.com/problemset/problem/236/B) | `Number Theory` `Level-3` `*1300` | [GNU C++17](./Number-Theory/easy-number-challenge.cpp) |
-19 | Cards with Numbers | Codeforces | [Cards with Numbers](https://codeforces.com/problemset/problem/254/A) | `implementation` `sorting` `Level-3` `*1200` | [GNU C++17](./Implementation/cards-with-numbers.cpp) |
-20 | Domino | Codeforces | [Domino](https://codeforces.com/problemset/problem/353/A) | `math` `Level-3` `*1200` | [GNU C++17](./Math/domino.cpp) |
-21 | Rank List | Codeforces | [Rank List](https://codeforces.com/problemset/problem/166/A) | `binary-serach` `sorting` `Level-3` `*1100` | [GNU C++17](./Binary-Search/rank-list.cpp) |
-22 | IQ Test | Codeforces | [IQ Test](https://codeforces.com/problemset/problem/166/A) | `bruteforce` `Level-3` `*1100` | [GNU C++17](./Implementation/iq-test.cpp) |
-23 | Building Permutation | Codeforces | [Building Permutation](https://codeforces.com/contest/285/problem/C) | `greedy` `Level-3` `*1200` | [GNU C++17](./Greedy/building-permutation.cpp) |
-24 | Robots | Codeforces | [Robots](https://codeforces.com/contest/1680/problem/B) | `greedy` `Level-3` `*1100` | [GNU C++17](./Greedy/robots.cpp) |
-25 | Kuriyama Mirai's Stones | Codeforces | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | `dp` `implementation` `Level-3` `*1200` | [GNU C++17](./Implementation/kuriyama-mirai-stones.cpp) |
-26 | T-Primes | Codeforces | [T-Primes](https://codeforces.com/contest/230/problem/B) | `number-theory` `binary-search` `Level-3` `*1300` | [GNU C++17](./Number-Theory/t-primes.cpp) |
-27 | Flipping Game | Codeforces | [Flipping Game](https://codeforces.com/problemset/problem/327/A) | `dp` `btute-force` `Level-3` `*1200` | [GNU C++17](./Implementation/flipping-game.cpp) |
-28 | Path Parity | CodeChef | [Path Parity](https://www.codechef.com/START41D/problems/PATHPAR) | `implementation` `Level-3` `*1100` | [GNU C++17](./Implementation/path-parity.cpp) |
-29 | Candy Bags | Codeforces | [Candy Bags](https://codeforces.com/problemset/problem/334/A) | `implementation` `Level-3` `*1000` | [GNU C++14](./Implementation/candy-bags.cpp) |
-30 | Lunch Rush | Codeforces | [Lunch Rush](https://codeforces.com/contest/276/problem/A) | `implementation` `Level-3` `*900` | [GNU C++14](./Implementation/lunch-rush.cpp) |
-31 | Cakeminator | Codeforces | [Cakeminator](https://codeforces.com/problemset/problem/330/A) | `implementation` `Level-3` `*800` | [GNU C++14](./Implementation/cakeminator.cpp) |
-32 | Prof. Slim | Codeforces | [Prof. Slim](https://codeforces.com/contest/1670/problem/A) | `implementation` `greedy` `Level-3` `*800` | [GNU C++14](./Implementation/prof-slim.cpp) |
-33 | Jeff and Periods | Codeforces | [Jeff and Periods](https://codeforces.com/contest/352/problem/B) | `implementation` `Level-3` `*1300` | [GNU C++14](./Implementation/jeff-and-periods.cpp) |
-34 | Array Decrements | Codeforces | [Array Decrements](https://codeforces.com/contest/1690/problem/B) | `greedy`, `Level-3` `*1000` | [GNU C++14](./Greedy/array-decrements.cpp) |
-35 | Life Without Zeros | Codeforces | [Life Without Zeros](https://codeforces.com/problemset/problem/75/A) | `implementation`, `Level-3` `*1000` | [GNU C++14](./Implementation/life-without-zeros.cpp) |
-36 | Black and White Stripe | Codeforces | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | `two-pointer`, `Level-3` `*1100` | [GNU C++14](./Implementation/black-white-stripe.cpp) |
-37 | Equal Strings | CodeChef | [Equal Strings](https://www.codechef.com/JUNE221D/problems/EQUALSTRING) | `string` `implementation` `Level-3` `*1000` | [GNU C++14](./Implementation/equal-string.cpp) |
-38 | Divisible by i | CodeChef | [Divisible by i](https://www.codechef.com/JUNE221D/problems/DIVBYI) | `number-theory` `Level-3` `*1000` | [GNU C++14](./Number-Theory/divisible-by.cpp) |
-39 | Mystic Permutation | Codeforces | [Mystic Permutation](https://codeforces.com/contest/1689/problem/B) | `greedy` `Level-3` `*1000` | [GNU C++14](./Greedy/mystic-permutation.cpp) |
-40 | Possible GCD | CodeChef | [Possible GCD](https://www.codechef.com/JUNE221D/problems/DISTGCD/) | `number-theory` `Level-3` `*1100` | [GNU C++14](./Number-Theory/possible-gcd.cpp) |
-41 | Reduce to zero | CodeChef | [Reduce to zero](https://www.codechef.com/JUNE221D/problems/RED0) | `math` `Level-3` `*1100` | [GNU C++14](./Math/reduce-to-zero.cpp) |
-42 | Array | Codeforces | [Array](https://codeforces.com/contest/300/problem/A) | `implementation` `Level-3` `*1100` | [GNU C++14](./Implementation/array.cpp) |
-43 | Sum of Digits | Codeforces | [Sum of Digits](http://codeforces.com/problemset/problem/102/B) | `implementation` `Level-3` `*1000` | [GNU C++14](./Implementation/sum-of-digits.cpp) |
-44 | Laptops | Codeforces | [Laptops](https://codeforces.com/problemset/problem/456/A) | `implementation` `sorting` `Level-3` `*1100` | [GNU C++14](./Implementation/laptops.cpp) |
-45 | The Clock | Codeforces | [The Clock](https://codeforces.com/contest/1692/problem/D) | `bruteforce` `dfs&similar` `Level-3` `*1100` | [GNU C++14](./Implementation/the-clock.cpp) |
-46 | 3SUM | Codeforces | [3SUM](https://codeforces.com/contest/1692/problem/F) | `bruteforce` `math` `Level-3` `*1100` | [GNU C++14](./Math/3sum.cpp) |
-47 | 2^Sort | Codeforces | [2^Sort](https://codeforces.com/contest/1692/problem/G) | `bruteforce` `two-pointer` `dp` `Level-3` `*1200` | [GNU C++14](./Two-Pointer/2sort.cpp) |
-48 | The Attack of Knight | CodeChef | [The Attack of Knight](https://www.codechef.com/START44D/problems/KNIGHTATTACK) | `bruteforce` `implementation` `Level-3` `*1100` | [GNU C++14](./Implementation/the-attack-of-knight.cpp) |
-49 | The Fibonacci Segment | Codeforces | [The Fibonacci Segment](https://codeforces.com/contest/365/problem/B) | `implementation` `Level-3` `*1100` | [GNU C++14](./Implementation/the-fibonacci-segment.cpp) |
-50 | Palindromic Numbers | Codeforces | [Palindromic Numbers](https://codeforces.com/contest/1700/problem/B) | `math` `implementation` `Level-3` `*1100` | [GNU C++14](./Math/palindromic-numbers.cpp) |
-51 | Jogging | CodeChef | [Jogging](https://www.codechef.com/START44D/problems/JOGGING) | `math` `number-theory` `Level-3` `*1100` | [GNU C++14](./Number-Theory/jogging.cpp) |
-52 | Reversal Sorting | CodeChef | [Reversal Sorting](https://www.codechef.com/problems-old/REVSORT) | `implementation` `Level-3` `*1200` | [GNU C++14](./Implementation/reversal-sorting.cpp) |
-54 | Roma and Changing Signs | CodeChef | [Roma and Changing Signs](https://codeforces.com/contest/262/problem/B) | `math` `greedy` `Level-3` `*1200` | [GNU C++14](./Greedy/roma-and-changing-signs.cpp) |
-55 | Sereja and Array | Codeforces | [Sereja and Array](https://codeforces.com/problemset/problem/315/B) | `implementation` `Level-3` `*1200` | [GNU C++14](./Implementation/sereja-and-array.cpp) |
-56 | Dima and Staircase | Codeforces | [Dima and Staircase](https://codeforces.com/problemset/problem/272/C) | `implementation` `Level-3` `*1500` | [GNU C++14](./Implementation/dima-and-staircase.cpp) |
-57 | Is this priority or parity | CodeChef | [Is this priority or parity](https://www.codechef.com/START41D/problems/ISPAR) | `implementation++` `Level-4` `*1200` | [GNU C++17](./Implementation/priority-or-parity.cpp) |
-58 | Shoe Shuffling | Codeforces | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | `greedy` `two-pointer` `Level-4` `*1300` | [GNU C++14](./Greedy/shoe-shuffling.cpp) |
-59 | Appleman and Card Game | Codeforces | [Appleman and Card Game](https://codeforces.com/problemset/problem/462/B) | `greedy` `Level-4` `*1300` | [GNU C++17](./Greedy/appleman-card-game.cpp) |
-60 | Sort the Array | Codeforces | [Sort the Array](https://codeforces.com/contest/451/problem/B) | `implementation` `Level-4` `*1300` | [GNU C++17](./Implementation/sort-the-array.cpp) |
-61 | Adding Digits | Codeforces | [Adding Digits](https://codeforces.com/contest/260/problem/A) | `math` `Level-4` `*1400` | [GNU C++14](./Math/adding-digits.cpp) |
-62 | Ilya and Queries | Codeforces | [Ilya and Queries](https://codeforces.com/problemset/problem/313/B) | `dp` `implementation` `Level-4` `*1100` | [GNU C++14](./Implementation/Ilya-and-queries.cpp) |
-63 | Little Dima and Equation | Codeforces | [Little Dima and Equation](https://codeforces.com/contest/460/problem/B) | `math` `number-theory` `Level-4` `*1500` | [GNU C++14](./Number-Theory/little-dima-and-equation.cpp) |
-64 | Eating Queries | Codeforces | [Eating Queries](https://codeforces.com/contest/1676/problem/E) | `binary-search` `greedy` `Level-4` `*1100` | [GNU C++17](./Binary-Search/eating-queries.cpp) |
+<details> 
+    <summary> Bruteforce and Implementation</summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>K-String</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/230/problem/A">K-String</a> </td> <td>Level-2</td>
+                <td><a href="./Implementation/k-string.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Airport</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/218/problem/B">Airport</a> </td> <td>Level-2</td>
+                <td><a href="./Implementation/airport.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Kitahara Haruki's Gift</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/433/A">Kitahara Haruki's Gift</a> </td> <td>Level-2</td>
+                <td><a href="./Implementation/kitahara-haruki-gift.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Stone Age Problem</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1679/problem/B">Stone Age Problem</a> </td> <td>Level-2</td>
+                <td><a href="./Implementation/stone-age-problem.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>5</td> <td>Big Segment</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/242/problem/B">Big Segment</a> </td> <td>Level-2</td>
+                <td><a href="./Implementation/big-segment.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>6</td> <td>Game with Cards</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1681/problem/A">Game with Cards</a> </td> <td>Level-2</td>
+                <td><a href="./Implementation/game-with-cards.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>7</td> <td>Cards with Numbers</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/254/A">Cards with Numbers</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/cards-with-numbers.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>8</td> <td>Fence</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/363/B">Fence</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/fence.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>9</td> <td>IQ Test</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/166/A">IQ Test</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/iq-test.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>10</td> <td>Kuriyama Mirai's Stones</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/433/problem/B">Kuriyama Mirai's Stones</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/kuriyama-mirai-stones.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>11</td> <td>Flipping Game</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/327/A">Flipping Game</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/flipping-game.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>12</td> <td>Path Parity</td> <td>Codechef</td>
+                <td> <a href="https://www.codechef.com/START41D/problems/PATHPAR">Path Parity</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/path-parity.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>13</td> <td>Candy Bags</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/334/A">Candy Bags</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/candy-bags.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>14</td> <td>Lunch Rush</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/276/problem/A">Lunch Rush</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/lunch-rush.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>15</td> <td>Cakeminator</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/330/A">Cakeminator</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/cakeminator.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>16</td> <td>Jeff and Periods</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/352/problem/B">Jeff and Periods</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/jeff-and-periods.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>17</td> <td>Life Without Zeros</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/75/A">Life Without Zeros</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/life-without-zeros.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>18</td> <td>Equal Strings</td> <td>Codechef</td>
+                <td> <a href="https://www.codechef.com/JUNE221D/problems/EQUALSTRING">Equal Strings</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/equal-string.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>19</td> <td>Mystic Permutation</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1689/problem/B">Mystic Permutation</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/mystic-permutation.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>20</td> <td>Array</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/300/problem/A">Array</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/array.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>21</td> <td>Sum of Digits</td> <td>Codeforces</td>
+                <td> <a href="http://codeforces.com/problemset/problem/102/B">Sum of Digits</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/sum-of-digits.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>22</td> <td>Laptops</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/456/A">Laptops</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/laptops.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>23</td> <td>The Clock</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1692/problem/D">The Clock</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/the-clock.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>24</td> <td>The Attack of Knight</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/START44D/problems/KNIGHTATTACK">The Attack of Knight</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/the-attack-of-knight.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>25</td> <td>The Fibonacci Segment</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/365/problem/B">The Fibonacci Segment</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/the-fibonacci-segment.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>26</td> <td>Reversal Sorting</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/problems-old/REVSORT">Reversal Sorting</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/reversal-sorting.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>27</td> <td>Sereja and Array </td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/315/B">Sereja and Array </a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/sereja-and-array.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>28</td> <td>Dima and Staircase</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/272/C">Dima and Staircase</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/dima-and-staircase.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>29</td> <td>Is this priority or parity</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/START41D/problems/ISPAR">Is this priority or parity</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/priority-or-parity.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>30</td> <td>Black and White Stripe</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1690/problem/D">Black and White Stripe</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/black-white-stripe.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>31</td> <td>Unlucky Ticket</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/160/B">Unlucky Ticket</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/unlucky-numbers.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>32</td> <td>Prof. Slim</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1670/problem/A">Prof. Slim</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/prof-slim.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>33</td> <td>Flag Day</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/357/B">Flag Day</a> </td> <td>Level-4</td>
+                <td><a href="./Implementation/flag-day.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>34</td> <td>Sort the Array</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/451/problem/B">Sort the Array</a> </td> <td>Level-4</td>
+                <td><a href="./Implementation/sort-the-array.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>35</td> <td>Ilya and Queries</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/313/B">Ilya and Queries</a> </td> <td>Level-4</td>
+                <td><a href="./Implementation/Ilya-and-queries.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
+    <summary> String </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Letter</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/43/problem/B">Letter</a> </td> <td>Level-2</td>
+                <td><a href="./String/letter.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Xenia and Divisors</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/342/A">Xenia and Divisors</a> </td> <td>Level-2</td>
+                <td><a href="./String/xenia-and-divisors.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Zero Ones Equal One Zeros</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/LTIME109D/problems/ZOOZ">Zero Ones Equal One Zeros</a> </td> <td>Level-2</td>
+                <td><a href="./String/zero-one-equal.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
+    <summary> Greedy </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Chewbaсca and Number</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/514/problem/A">Chewbaсca and Number</a> </td> <td>Level-1</td>
+                <td><a href="./Greedy/chewbaсca-and-number.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Dragons</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/230/problem/A">Dragons</a> </td> <td>Level-2</td>
+                <td><a href="./Greedy/dragons.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Little Girl and Game</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/276/B">Little Girl and Game</a> </td> <td>Level-2</td>
+                <td><a href="./Greedy/little-girl-and-game.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Beat The Odds</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1691/problem/A">Beat The Odds</a> </td> <td>Level-2</td>
+                <td><a href="./Greedy/beat-the-odds.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>5</td> <td>Building Permutation</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/285/problem/C">Building Permutation</a> </td> <td>Level-3</td>
+                <td><a href="./Greedy/building-permutation.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>6</td> <td>Robots</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1680/problem/B">Robots</a> </td> <td>Level-3</td>
+                <td><a href="./Greedy/robots.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>7</td> <td>Array Decrements</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1690/problem/B">Array Decrements </a> </td> <td>Level-3</td>
+                <td><a href="./Greedy/array-decrements.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>8</td> <td>Roma and Changing Signs</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/262/problem/B">Roma and Changing Signs </a> </td> <td>Level-3</td>
+                <td><a href="./Greedy/roma-and-changing-signs.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>9</td> <td>Shoe Shuffling</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1691/problem/B">Shoe Shuffling </a> </td> <td>Level-3</td>
+                <td><a href="./Greedy/shoe-shuffling.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>10</td> <td>Appleman and Card Game</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/462/B">Appleman and Card Game </a> </td> <td>Level-3</td>
+                <td><a href="./Greedy/appleman-card-game.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>11</td> <td>Mystic Permutation</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1689/problem/B">Mystic Permutation </a> </td> <td>Level-3</td>
+                <td><a href="./Greedy/mystic-permutation.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>12</td> <td>TL</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/350/A">TL</a></td> <td>Level-3</td>
+                <td><a href="./Greedy/tl.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
+    <summary> Math </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Yaroslav and Permutations</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/296/problem/A">Yaroslav and Permutations</a> </td> <td>Level-2</td>
+                <td><a href="./Math/yaroslav-permutation.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Sum of Round Numbers</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1352/problem/A">Sum of Round Numbers</a> </td> <td>Level-2</td>
+                <td><a href="./Math/sum-of-round-numbers.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Increase and deceease</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/246/problem/B">Increase and deceease</a> </td> <td>Level-3</td>
+                <td><a href="./Math/increase-decrease.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Domino</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/353/A">Domino</a> </td> <td>Level-3</td>
+                <td><a href="./Math/domino.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>5</td> <td>3SUM</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1692/problem/F">3SUM</a> </td> <td>Level-3</td>
+                <td><a href="./Math/3sum.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>6</td> <td>Palindromic Numbers</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1700/problem/B">Palindromic Numbers</a> </td> <td>Level-3</td>
+                <td><a href="./Math/palindromic-numbers.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>7</td> <td>Reduce to zero</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/JUNE221D/problems/RED0">Reduce to zero</a> </td> <td>Level-3</td>
+                <td><a href="./Math/reduce-to-zero.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>8</td> <td>Adding Digits</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
+                <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
+    <summary> Number Theory </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>T-Primes</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/230/problem/B">T-Primes</a> </td> <td>Level-2</td>
+                <td><a href="./Number-Theory/t-primes.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Divisible by i</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/JUNE221D/problems/DIVBYI">Divisible by i</a> </td> <td>Level-3</td>
+                <td><a href="./Number-Theory/t-primes.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Jogging</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/START44D/problems/JOGGING">Jogging</a> </td> <td>Level-3</td>
+                <td><a href="./Number-Theory/jogging.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Possible GCD</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/JUNE221D/problems/DISTGCD/">Possible GCD</a> </td> <td>Level-3</td>
+                <td><a href="./Number-Theory/possible-gcd.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>5</td> <td>Easy Number Challenge</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/236/B">Easy Number Challenge</a> </td> <td>Level-3</td>
+                <td><a href="./Number-Theory/easy-number-challenge.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>6</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/460/problem/B">Little Dima and Equation</a> </td> <td>Level-4</td>
+                <td><a href="./Number-Theory/little-dima-and-equation.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
+    <summary> Two Pointer </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>2^Sort</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1692/problem/G">2^Sort</a> </td> <td>Level-3</td>
+                <td><a href="./Two-Pointer/2sort.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
+    <summary> Binary Search </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Rank List</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/166/A">Rank List</a> </td> <td>Level-3</td>
+                <td><a href="./Binary-Search/rank-list.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Hamburgers</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/371/C">Hamburgers</a> </td> <td>Level-4</td>
+                <td><a href="./Binary-Search/hamburgers.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Eating Queries</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1676/problem/E">Eating Queries</a> </td> <td>Level-4</td>
+                <td><a href="./Binary-Search/eating-queries.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
 
