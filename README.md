@@ -355,7 +355,12 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Math/reduce-to-zero.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>8</td> <td>Adding Digits</td> <td>Codeforces</td>
+                <td>8</td> <td>Difference of GCDs</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1708/problem/B">Difference of GCDs</a> </td> <td>Level-3</td>
+                <td><a href="./Math/difference-of-GCD.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>9</td> <td>Adding Digits</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
                 <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
             </tr>
@@ -401,7 +406,12 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Number-Theory/easy-number-challenge.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>6</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
+                <td>6</td> <td>Fox Dividing Cheese</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/371/B">Fox Dividing Cheese</a> </td> <td>Level-4</td>
+                <td><a href="./Number-Theory/fox-dividing-cheese.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>7</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/460/problem/B">Little Dima and Equation</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/little-dima-and-equation.cpp">GNU C++14</a></td>
             </tr>
