@@ -227,6 +227,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://www.codechef.com/LTIME109D/problems/ZOOZ">Zero Ones Equal One Zeros</a> </td> <td>Level-2</td>
                 <td><a href="./String/zero-one-equal.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>4</td> <td>Palindrome Problem</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/problems-old/MAKEPALAGAIN">Palindrome Problem</a> </td> <td>Level-2</td>
+                <td><a href="./String/yet-another-palindrome-making-problem.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
@@ -363,6 +368,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td>9</td> <td>Adding Digits</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
                 <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>10</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/322/B">Ciel and Flowers</a> </td> <td>Level-4</td>
+                <td><a href="./Math/ceil-and-flower.cpp">GNU C++14</a></td>
             </tr>
         </tbody>
     </table>
