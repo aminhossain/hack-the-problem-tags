@@ -308,6 +308,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/problemset/problem/350/A">TL</a></td> <td>Level-3</td>
                 <td><a href="./Greedy/tl.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>13</td> <td>Fixing Typos</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/363/problem/C">Fixing Typos</a></td> <td>Level-3</td>
+                <td><a href="./Greedy/fixing-typos.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
