@@ -430,6 +430,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/460/problem/B">Little Dima and Equation</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/little-dima-and-equation.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>8</td> <td>Prime Matrix</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/271/problem/B">Prime Matrix</a> </td> <td>Level-4</td>
+                <td><a href="./Number-Theory/prime-matrix.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
