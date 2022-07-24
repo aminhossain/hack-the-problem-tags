@@ -182,17 +182,22 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Implementation/prof-slim.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>33</td> <td>Flag Day</td> <td>Codeforces</td>
+                <td>33</td> <td>Hungry Chef</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/JULY222D/problems/BURGERS2">Hungry Chef</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/hungry-chef.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>34</td> <td>Flag Day</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/357/B">Flag Day</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/flag-day.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>34</td> <td>Sort the Array</td> <td>Codeforces</td>
+                <td>35</td> <td>Sort the Array</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/451/problem/B">Sort the Array</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/sort-the-array.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>35</td> <td>Ilya and Queries</td> <td>Codeforces</td>
+                <td>36</td> <td>Ilya and Queries</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/313/B">Ilya and Queries</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/Ilya-and-queries.cpp">GNU C++14</a></td>
             </tr>
@@ -370,12 +375,17 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Math/difference-of-GCD.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>9</td> <td>Adding Digits</td> <td>Codeforces</td>
+                <td>9</td> <td>Sum of Product 1</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/JULY222D/problems/SUMOFPROD1">Sum of Product 1</a> </td> <td>Level-3</td>
+                <td><a href="./Math/sum-of-product-1.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>10</td> <td>Adding Digits</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
                 <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>10</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
+                <td>11</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/322/B">Ciel and Flowers</a> </td> <td>Level-4</td>
                 <td><a href="./Math/ceil-and-flower.cpp">GNU C++14</a></td>
             </tr>
@@ -421,17 +431,22 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Number-Theory/easy-number-challenge.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>6</td> <td>Fox Dividing Cheese</td> <td>Codeforces</td>
+                <td>6</td> <td>Maximize Difference</td> <td>CodeChef</td>
+                <td> <a href="https://www.codechef.com/JULY222D/problems/DIF_GCD">Maximize Difference</a> </td> <td>Level-3</td>
+                <td><a href="./Number-Theory/maximize-difference.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>7</td> <td>Fox Dividing Cheese</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/371/B">Fox Dividing Cheese</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/fox-dividing-cheese.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>7</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
+                <td>8</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/460/problem/B">Little Dima and Equation</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/little-dima-and-equation.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>8</td> <td>Prime Matrix</td> <td>Codeforces</td>
+                <td>9</td> <td>Prime Matrix</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/271/problem/B">Prime Matrix</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/prime-matrix.cpp">GNU C++14</a></td>
             </tr>
