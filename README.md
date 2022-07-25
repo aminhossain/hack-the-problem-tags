@@ -471,6 +471,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1692/problem/G">2^Sort</a> </td> <td>Level-3</td>
                 <td><a href="./Two-Pointer/2sort.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>2</td> <td>Books</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/279/B">Books</a> </td> <td>Level-3</td>
+                <td><a href="./Two-Pointer/books.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
