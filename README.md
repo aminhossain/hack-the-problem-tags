@@ -192,17 +192,22 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Implementation/lucky-sum.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>35</td> <td>Flag Day</td> <td>Codeforces</td>
+                <td>35</td> <td>Find Marbel</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/285/B">Find Marbel/a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/find-marbel.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>36</td> <td>Flag Day</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/357/B">Flag Day</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/flag-day.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>36</td> <td>Sort the Array</td> <td>Codeforces</td>
+                <td>37</td> <td>Sort the Array</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/451/problem/B">Sort the Array</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/sort-the-array.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>37</td> <td>Ilya and Queries</td> <td>Codeforces</td>
+                <td>38</td> <td>Ilya and Queries</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/313/B">Ilya and Queries</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/Ilya-and-queries.cpp">GNU C++14</a></td>
             </tr>
@@ -238,7 +243,12 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./String/zero-one-equal.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>4</td> <td>Palindrome Problem</td> <td>CodeChef</td>
+                <td>4</td> <td>Erasing Zeroes</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/1303/A">Erasing Zeroes</a> </td> <td>Level-2</td>
+                <td><a href="./String/erasing-zeroes.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>5</td> <td>Palindrome Problem</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/problems-old/MAKEPALAGAIN">Palindrome Problem</a> </td> <td>Level-2</td>
                 <td><a href="./String/yet-another-palindrome-making-problem.cpp">GNU C++14</a></td>
             </tr>
@@ -385,12 +395,22 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Math/sum-of-product-1.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>10</td> <td>Adding Digits</td> <td>Codeforces</td>
+                <td>10</td> <td>Dreamoon and WiFi</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/476/B">Dreamoon and WiFi</a> </td> <td>Level-3</td>
+                <td><a href="./Math/dreamoon-and-wiFi.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>11</td> <td>Simple Molecules</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/344/B">Simple Molecules</a> </td> <td>Level-3</td>
+                <td><a href="./Math/simple-molecules.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>12</td> <td>Adding Digits</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
                 <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>11</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
+                <td>13</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/322/B">Ciel and Flowers</a> </td> <td>Level-4</td>
                 <td><a href="./Math/ceil-and-flower.cpp">GNU C++14</a></td>
             </tr>
