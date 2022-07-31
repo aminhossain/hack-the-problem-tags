@@ -536,4 +536,23 @@ A repository to keep track of good problems that will force you to think and imp
     </table>
 </details>
 
-
+<details> 
+    <summary> Graph </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Road Construction</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/330/problem/B">Road Construction</a> </td> <td>Level-2</td>
+                <td><a href="./Graph/road-construction.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
