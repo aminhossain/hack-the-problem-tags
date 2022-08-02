@@ -252,6 +252,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://www.codechef.com/problems-old/MAKEPALAGAIN">Palindrome Problem</a> </td> <td>Level-2</td>
                 <td><a href="./String/yet-another-palindrome-making-problem.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>6</td> <td>Color with Occurrences</td> <td>CodeChef</td>
+                <td> <a href="https://codeforces.com/contest/1714/problem/D">Color with Occurrences</a> </td> <td>Level-3</td>
+                <td><a href="./String/color-occurrences.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
