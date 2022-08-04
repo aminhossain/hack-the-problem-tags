@@ -365,57 +365,62 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Math/sum-of-round-numbers.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>3</td> <td>Increase and deceease</td> <td>Codeforces</td>
+                <td>3</td> <td>Permutation Chain</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1716/problem/B">Permutation Chain</a> </td> <td>Level-2</td>
+                <td><a href="./Math/permutation-chain.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Increase and deceease</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/246/problem/B">Increase and deceease</a> </td> <td>Level-3</td>
                 <td><a href="./Math/increase-decrease.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>4</td> <td>Domino</td> <td>Codeforces</td>
+                <td>5</td> <td>Domino</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/353/A">Domino</a> </td> <td>Level-3</td>
                 <td><a href="./Math/domino.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>5</td> <td>3SUM</td> <td>Codeforces</td>
+                <td>6</td> <td>3SUM</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/1692/problem/F">3SUM</a> </td> <td>Level-3</td>
                 <td><a href="./Math/3sum.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>6</td> <td>Palindromic Numbers</td> <td>Codeforces</td>
+                <td>7</td> <td>Palindromic Numbers</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/1700/problem/B">Palindromic Numbers</a> </td> <td>Level-3</td>
                 <td><a href="./Math/palindromic-numbers.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>7</td> <td>Reduce to zero</td> <td>CodeChef</td>
+                <td>8</td> <td>Reduce to zero</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/JUNE221D/problems/RED0">Reduce to zero</a> </td> <td>Level-3</td>
                 <td><a href="./Math/reduce-to-zero.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>8</td> <td>Difference of GCDs</td> <td>Codeforces</td>
+                <td>9</td> <td>Difference of GCDs</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/1708/problem/B">Difference of GCDs</a> </td> <td>Level-3</td>
                 <td><a href="./Math/difference-of-GCD.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>9</td> <td>Sum of Product 1</td> <td>CodeChef</td>
+                <td>10</td> <td>Sum of Product 1</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/JULY222D/problems/SUMOFPROD1">Sum of Product 1</a> </td> <td>Level-3</td>
                 <td><a href="./Math/sum-of-product-1.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>10</td> <td>Dreamoon and WiFi</td> <td>Codeforces</td>
+                <td>11</td> <td>Dreamoon and WiFi</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/476/B">Dreamoon and WiFi</a> </td> <td>Level-3</td>
                 <td><a href="./Math/dreamoon-and-wiFi.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>11</td> <td>Simple Molecules</td> <td>Codeforces</td>
+                <td>12</td> <td>Simple Molecules</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/344/B">Simple Molecules</a> </td> <td>Level-3</td>
                 <td><a href="./Math/simple-molecules.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>12</td> <td>Adding Digits</td> <td>Codeforces</td>
+                <td>13</td> <td>Adding Digits</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
                 <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>13</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
+                <td>14</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/322/B">Ciel and Flowers</a> </td> <td>Level-4</td>
                 <td><a href="./Math/ceil-and-flower.cpp">GNU C++14</a></td>
             </tr>
