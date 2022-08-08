@@ -547,6 +547,27 @@ A repository to keep track of good problems that will force you to think and imp
 </details>
 
 <details> 
+    <summary> Dynamic Programming </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Build Permutation</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1713/problem/C">Build Permutation</a> </td> <td>Level-3</td>
+                <td><a href="./Dynamic-Programming/road-construction.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
     <summary> Graph </summary>
     <table>
         <thead>
