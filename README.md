@@ -485,6 +485,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/271/problem/B">Prime Matrix</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/prime-matrix.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>10</td> <td>Add Modulo 10</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1714/problem/E">Add Modulo 10</a> </td> <td>Level-4</td>
+                <td><a href="./Number-Theory/add-modulo-10.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>

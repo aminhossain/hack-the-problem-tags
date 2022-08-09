@@ -1,10 +1,10 @@
 /**
  *  BIS-MILLAHIR RAHMANIR RAHIM
- *  author: Amin Hossain [tripplet]    
- *  Idea: dp, math, observation
- *  problem-link: https://codeforces.com/contest/1713/problem/C
+ *  author: Amin Hossain [tripplet]     
+ *  Idea: observation, number-theory
+ *  problem-link: https://codeforces.com/contest/1714/problem/E
 **/
- 
+
 #include<bits/stdc++.h>
 #include<string>
 
@@ -41,7 +41,7 @@ typedef unsigned long long int ull;
 #define TC(case,t)        for(case=1;case<=t;case++)
     
 #define PI                acos(-1) // 3.1415926535897932
-#define MX                100005
+#define MX                200005
 #define MOD               1000000007
 #define BASE              1000000002
 #define MAXN              300
@@ -49,14 +49,8 @@ typedef unsigned long long int ull;
 void inOut();
 int arr[MX];
 
-void dpPermutation(int r) {
-    if(r < 0) return;
-    int sq = sqrt(2*r); sq *= sq;
-    int l = sq - r;
-    dpPermutation(l-1);
-    for(; l <= r; l++, r--) {
-        arr[l] = r, arr[r] = l;
-    }
+int next(int x) {
+    return x + x % 10;
 }
 
 int main() {
@@ -68,23 +62,47 @@ int main() {
     ci(tc);
 
     while(tc--) {
+        bool ok = false;
         ci(n);
-        dpPermutation(n-1);
+        FOR(i,0,n) {
+            ci(arr[i]);
+            if(arr[i] % 5 == 0) {
+                ok = true;
+                arr[i] = next(arr[i]);
+            }
+        }
+        sort(arr, arr+n);
+        if(ok) {
+            if(arr[0] == arr[n-1]) out1("YES");
+            else out1("NO");
+        } else {
+            bool ok2 = false, ok12 = false;
+            FOR(i,0,n) {
+                x = arr[i];
+                while(x%10 != 2) {
+                    x = next(x);
+                }
 
-        FOR(i,0,n) outs1(arr[i]);
-        cout << "\n";
+                if(x%20 == 2) ok2 = true;
+                else ok12 = true;
+            }
+
+            if(ok2 && ok12) out1("NO");
+            else out1("YES");
+        }
     }
 
     return 0;
 }
     
     
-void inOut() {
+void inOut()
+{
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
     #ifndef ONLINE_JUDGE
-        //freopen("input.txt", "r", stdin);
-        //freopen("output.txt", "w", stdout);
+        // freopen("input.txt", "r", stdin);
+        // freopen("output.txt", "w", stdout);
     #endif
 }
