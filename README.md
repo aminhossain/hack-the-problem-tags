@@ -589,6 +589,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/330/problem/B">Road Construction</a> </td> <td>Level-2</td>
                 <td><a href="./Graph/road-construction.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>2</td> <td>Split Into Two Sets</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1702/problem/E">Split Into Two Sets</a> </td> <td>Level-3</td>
+                <td><a href="./Graph/split-into-two-sets.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
