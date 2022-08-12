@@ -573,6 +573,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1713/problem/C">Build Permutation</a> </td> <td>Level-3</td>
                 <td><a href="./Dynamic-Programming/road-construction.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>2</td> <td>George and Job</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/467/C">George and Job</a> </td> <td>Level-3</td>
+                <td><a href="./Dynamic-Programming/george-and-job.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
