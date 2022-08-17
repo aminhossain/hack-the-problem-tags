@@ -425,17 +425,22 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Math/dreamoon-and-wiFi.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>13</td> <td>Simple Molecules</td> <td>Codeforces</td>
+                <td>13</td> <td>Mathematical Circus</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1719/problem/B">Mathematical Circus</a> </td> <td>Level-3</td>
+                <td><a href="./Math/mathematical-circus.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>14</td> <td>Simple Molecules</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/344/B">Simple Molecules</a> </td> <td>Level-3</td>
                 <td><a href="./Math/simple-molecules.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>14</td> <td>Adding Digits</td> <td>Codeforces</td>
+                <td>15</td> <td>Adding Digits</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
                 <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>15</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
+                <td>16</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/322/B">Ciel and Flowers</a> </td> <td>Level-4</td>
                 <td><a href="./Math/ceil-and-flower.cpp">GNU C++14</a></td>
             </tr>
