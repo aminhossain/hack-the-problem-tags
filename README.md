@@ -577,6 +577,27 @@ A repository to keep track of good problems that will force you to think and imp
 </details>
 
 <details> 
+    <summary> Range Minimum Query </summary>
+    <table>
+        <thead>
+            <th>#</th> 
+            <th>Title</th> 
+            <th>Online Judge</th>
+            <th>Problem Link</th> 
+            <th>Level</th> 
+            <th>Solution</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Little Girl Maximum Sum</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/276/C">Little Girl and Maximum Sum</a> </td> <td>Level-2</td>
+                <td><a href="./RMQ/little-girl-max-sum.cpp">GNU C++14</a></td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+<details> 
     <summary> Dynamic Programming </summary>
     <table>
         <thead>
