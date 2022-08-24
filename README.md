@@ -496,22 +496,27 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Number-Theory/maximize-difference.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>7</td> <td>Fox Dividing Cheese</td> <td>Codeforces</td>
+                <td>7</td> <td>Different Divisors</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/1474/B">Different Divisors</a> </td> <td>Level-3</td>
+                <td><a href="./Number-Theory/different-divisors.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>8</td> <td>Fox Dividing Cheese</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/371/B">Fox Dividing Cheese</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/fox-dividing-cheese.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>8</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
+                <td>9</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/460/problem/B">Little Dima and Equation</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/little-dima-and-equation.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>9</td> <td>Prime Matrix</td> <td>Codeforces</td>
+                <td>10</td> <td>Prime Matrix</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/271/problem/B">Prime Matrix</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/prime-matrix.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>10</td> <td>Add Modulo 10</td> <td>Codeforces</td>
+                <td>11</td> <td>Add Modulo 10</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/1714/problem/E">Add Modulo 10</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/add-modulo-10.cpp">GNU C++14</a></td>
             </tr>
