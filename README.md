@@ -445,12 +445,17 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Math/simple-molecules.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>15</td> <td>Adding Digits</td> <td>Codeforces</td>
+                <td>15</td> <td>Sport Mafia</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/1195/B">Sport Mafia</a> </td> <td>Level-3</td>
+                <td><a href="./Math/sport-mafia.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>16</td> <td>Adding Digits</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/260/problem/A">Adding Digits</a> </td> <td>Level-4</td>
                 <td><a href="./Math/adding-digits.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>16</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
+                <td>17</td> <td>Ciel and Flowers</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/322/B">Ciel and Flowers</a> </td> <td>Level-4</td>
                 <td><a href="./Math/ceil-and-flower.cpp">GNU C++14</a></td>
             </tr>
@@ -578,7 +583,12 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Binary-Search/hamburgers.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>3</td> <td>Eating Queries</td> <td>Codeforces</td>
+                <td>3</td> <td>Letters</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/978/C">Letters</a> </td> <td>Level-4</td>
+                <td><a href="./Binary-Search/letters-two.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Eating Queries</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/1676/problem/E">Eating Queries</a> </td> <td>Level-4</td>
                 <td><a href="./Binary-Search/eating-queries.cpp">GNU C++14</a></td>
             </tr>
