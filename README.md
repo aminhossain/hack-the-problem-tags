@@ -619,9 +619,14 @@ A repository to keep track of good problems that will force you to think and imp
         </thead>
         <tbody>
             <tr>
-                <td>1</td> <td>Little Girl Maximum Sum</td> <td>Codeforces</td>
-                <td> <a href="https://codeforces.com/problemset/problem/276/C">Little Girl and Maximum Sum</a> </td> <td>Level-2</td>
+                <td>1</td> <td>Maximum Sum</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/276/C">Maximum Sum</a> </td> <td>Level-2</td>
                 <td><a href="./RMQ/little-girl-max-sum.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Counting Rectangles</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1722/problem/E">Counting Rectangles</a> </td> <td>Level-3</td>
+                <td><a href="./RMQ/counting-rectangles.cpp">GNU C++14</a></td>
             </tr>
         </tbody>
     </table>
