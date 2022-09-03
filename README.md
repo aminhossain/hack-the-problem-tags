@@ -556,6 +556,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/problemset/problem/279/B">Books</a> </td> <td>Level-3</td>
                 <td><a href="./Two-Pointer/books.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>3</td> <td>Eating Candies</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/1669/F">Eating Candies</a> </td> <td>Level-3</td>
+                <td><a href="./Two-Pointer/eating-candies.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
