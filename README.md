@@ -583,27 +583,32 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Binary-Search/rank-list.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>2</td> <td>Interesting drink</td> <td>Codeforces</td>
+                <td>2</td> <td>Perfect Team</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1221/problem/C">Perfect Team</a> </td> <td>Level-3</td>
+                <td><a href="./Binary-Search/perfect-team.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Interesting drink</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/706/problem/B">Interesting drink</a> </td> <td>Level-3</td>
                 <td><a href="./Binary-Search/interesting-drink.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>3</td> <td>Frog Jumps</td> <td>Codeforces</td>
+                <td>4</td> <td>Frog Jumps</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/1324/C">Frog Jumps</a> </td> <td>Level-3</td>
                 <td><a href="./Binary-Search/frog-jumps.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>4</td> <td>Hamburgers</td> <td>Codeforces</td>
+                <td>5</td> <td>Hamburgers</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/371/C">Hamburgers</a> </td> <td>Level-4</td>
                 <td><a href="./Binary-Search/hamburgers.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>5</td> <td>Letters</td> <td>Codeforces</td>
+                <td>6</td> <td>Letters</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/978/C">Letters</a> </td> <td>Level-4</td>
                 <td><a href="./Binary-Search/letters-two.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>6</td> <td>Eating Queries</td> <td>Codeforces</td>
+                <td>7</td> <td>Eating Queries</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/1676/problem/E">Eating Queries</a> </td> <td>Level-4</td>
                 <td><a href="./Binary-Search/eating-queries.cpp">GNU C++14</a></td>
             </tr>
