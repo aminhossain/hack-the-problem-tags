@@ -358,6 +358,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1712/problem/C">Sort Zero</a></td> <td>Level-3</td>
                 <td><a href="./Greedy/sort-zero.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>15</td> <td>Birthday</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/1131/C">Birthday</a></td> <td>Level-3</td>
+                <td><a href="./Greedy/birthday.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
