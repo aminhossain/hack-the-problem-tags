@@ -253,22 +253,27 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./String/xenia-and-divisors.cpp">GNU C++17</a></td>
             </tr>
             <tr>
-                <td>3</td> <td>Zero Ones Equal One Zeros</td> <td>CodeChef</td>
+                <td>3</td> <td>Different is Good</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/672/B">Different is Good</a> </td> <td>Level-2</td>
+                <td><a href="./String/different-is-good.cpp">GNU C++17</a></td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Zero Ones Equal One Zeros</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/LTIME109D/problems/ZOOZ">Zero Ones Equal One Zeros</a> </td> <td>Level-2</td>
                 <td><a href="./String/zero-one-equal.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>4</td> <td>Erasing Zeroes</td> <td>Codeforces</td>
+                <td>5</td> <td>Erasing Zeroes</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/1303/A">Erasing Zeroes</a> </td> <td>Level-2</td>
                 <td><a href="./String/erasing-zeroes.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>5</td> <td>Palindrome Problem</td> <td>CodeChef</td>
+                <td>6</td> <td>Palindrome Problem</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/problems-old/MAKEPALAGAIN">Palindrome Problem</a> </td> <td>Level-2</td>
                 <td><a href="./String/yet-another-palindrome-making-problem.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>6</td> <td>Color with Occurrences</td> <td>CodeChef</td>
+                <td>7</td> <td>Color with Occurrences</td> <td>CodeChef</td>
                 <td> <a href="https://codeforces.com/contest/1714/problem/D">Color with Occurrences</a> </td> <td>Level-3</td>
                 <td><a href="./String/color-occurrences.cpp">GNU C++14</a></td>
             </tr>
@@ -486,47 +491,52 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Number-Theory/t-primes.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>2</td> <td>Divisible by i</td> <td>CodeChef</td>
+                <td>2</td> <td>Array Reodering</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1535/problem/B">Array Reodering</a> </td> <td>Level-2</td>
+                <td><a href="./Number-Theory/array-reodering.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Divisible by i</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/JUNE221D/problems/DIVBYI">Divisible by i</a> </td> <td>Level-3</td>
                 <td><a href="./Number-Theory/t-primes.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>3</td> <td>Jogging</td> <td>CodeChef</td>
+                <td>4</td> <td>Jogging</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/START44D/problems/JOGGING">Jogging</a> </td> <td>Level-3</td>
                 <td><a href="./Number-Theory/jogging.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>4</td> <td>Possible GCD</td> <td>CodeChef</td>
+                <td>5</td> <td>Possible GCD</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/JUNE221D/problems/DISTGCD/">Possible GCD</a> </td> <td>Level-3</td>
                 <td><a href="./Number-Theory/possible-gcd.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>5</td> <td>Easy Number Challenge</td> <td>Codeforces</td>
+                <td>6</td> <td>Easy Number Challenge</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/236/B">Easy Number Challenge</a> </td> <td>Level-3</td>
                 <td><a href="./Number-Theory/easy-number-challenge.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>6</td> <td>Maximize Difference</td> <td>CodeChef</td>
+                <td>7</td> <td>Maximize Difference</td> <td>CodeChef</td>
                 <td> <a href="https://www.codechef.com/JULY222D/problems/DIF_GCD">Maximize Difference</a> </td> <td>Level-3</td>
                 <td><a href="./Number-Theory/maximize-difference.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>7</td> <td>Different Divisors</td> <td>Codeforces</td>
+                <td>8</td> <td>Different Divisors</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/1474/B">Different Divisors</a> </td> <td>Level-3</td>
                 <td><a href="./Number-Theory/different-divisors.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>8</td> <td>Fox Dividing Cheese</td> <td>Codeforces</td>
+                <td>9</td> <td>Fox Dividing Cheese</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/371/B">Fox Dividing Cheese</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/fox-dividing-cheese.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>9</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
+                <td>10</td> <td>Little Dima and Equation</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/460/problem/B">Little Dima and Equation</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/little-dima-and-equation.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>10</td> <td>Prime Matrix</td> <td>Codeforces</td>
+                <td>11</td> <td>Prime Matrix</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/271/problem/B">Prime Matrix</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/prime-matrix.cpp">GNU C++14</a></td>
             </tr>
