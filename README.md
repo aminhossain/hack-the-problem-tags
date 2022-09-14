@@ -591,6 +591,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/problemset/problem/1669/F">Eating Candies</a> </td> <td>Level-3</td>
                 <td><a href="./Two-Pointer/eating-candies.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>5</td> <td>Friends and the Restaurant</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1729/problem/D">Friends and the Restaurant</a> </td> <td>Level-3</td>
+                <td><a href="./Two-Pointer/friends-restaurant.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
