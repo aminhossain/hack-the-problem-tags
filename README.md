@@ -601,6 +601,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1729/problem/D">Friends and the Restaurant</a> </td> <td>Level-3</td>
                 <td><a href="./Two-Pointer/friends-restaurant.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>6</td> <td>Points on Line</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/251/A">Points on Line</a> </td> <td>Level-3</td>
+                <td><a href="./Two-Pointer/points-on-line.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
