@@ -398,6 +398,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1734/problem/C">Removing Multiples</a></td> <td>Level-3</td>
                 <td><a href="./Greedy/removing-multiples.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>17</td> <td>Vanya and Exams</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/492/C">Vanya and Exams</a></td> <td>Level-3</td>
+                <td><a href="./Greedy/vanya-and-exams.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
