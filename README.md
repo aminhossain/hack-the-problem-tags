@@ -297,6 +297,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1729/problem/C">Jumping on Tiles</a> </td> <td>Level-3</td>
                 <td><a href="./String/jumping-on-tiles.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>9</td> <td>Minimum Notation</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1730/problem/C">Minimum Notation</a> </td> <td>Level-3</td>
+                <td><a href="./String/minimum-notation.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
@@ -399,7 +404,7 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Greedy/removing-multiples.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>17</td> <td>Vanya and Exams</td> <td>Codeforces</td>
+                <td>18</td> <td>Vanya and Exams</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/492/C">Vanya and Exams</a></td> <td>Level-3</td>
                 <td><a href="./Greedy/vanya-and-exams.cpp">GNU C++14</a></td>
             </tr>
