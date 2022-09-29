@@ -227,17 +227,22 @@ A repository to keep track of good problems that will force you to think and imp
                 <td><a href="./Implementation/lucky-sum-digits.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>42</td> <td>Flag Day</td> <td>Codeforces</td>
+                <td>42</td> <td>Array2</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/224/B">Array2</a> </td> <td>Level-3</td>
+                <td><a href="./Implementation/array-2.cpp">GNU C++14</a></td>
+            </tr>
+            <tr>
+                <td>43</td> <td>Flag Day</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/357/B">Flag Day</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/flag-day.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>43</td> <td>Sort the Array</td> <td>Codeforces</td>
+                <td>44</td> <td>Sort the Array</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/contest/451/problem/B">Sort the Array</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/sort-the-array.cpp">GNU C++14</a></td>
             </tr>
             <tr>
-                <td>44</td> <td>Ilya and Queries</td> <td>Codeforces</td>
+                <td>45</td> <td>Ilya and Queries</td> <td>Codeforces</td>
                 <td> <a href="https://codeforces.com/problemset/problem/313/B">Ilya and Queries</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/Ilya-and-queries.cpp">GNU C++14</a></td>
             </tr>
