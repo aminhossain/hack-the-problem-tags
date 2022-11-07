@@ -251,6 +251,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/problemset/problem/289/B">Polo and Matrix</a> </td> <td>Level-4</td>
                 <td><a href="./Implementation/polo-and-matrix.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>47</td> <td>Complementary XOR</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1750/problem/C">Complementary XOR</a> </td> <td>Level-4</td>
+                <td><a href="./Implementation/complementary-xor.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
