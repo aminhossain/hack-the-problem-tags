@@ -428,6 +428,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/problemset/problem/492/C">Vanya and Exams</a></td> <td>Level-3</td>
                 <td><a href="./Greedy/vanya-and-exams.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>20</td> <td>Guess a number!</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/416/A">Guess a number!</a></td> <td>Level-3</td>
+                <td><a href="./Greedy/guess-number.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
