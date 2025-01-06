@@ -317,6 +317,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1730/problem/C">Minimum Notation</a> </td> <td>Level-3</td>
                 <td><a href="./String/minimum-notation.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>10</td> <td>Chemistry</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/contest/1883/problem/B">Chemistry</a> </td> <td>Level-2</td>
+                <td><a href="./String/chemistry.cpp">GNU C++17</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
