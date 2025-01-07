@@ -620,6 +620,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1714/problem/E">Add Modulo 10</a> </td> <td>Level-4</td>
                 <td><a href="./Number-Theory/add-modulo-10.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>12</td> <td>Longest Divisors Interval</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/1855/B">Longest Divisors Interval</a> </td> <td>Level-3</td>
+                <td><a href="./Number-Theory/longest-divisor-interval.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
