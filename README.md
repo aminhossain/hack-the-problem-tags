@@ -443,6 +443,11 @@ A repository to keep track of good problems that will force you to think and imp
                 <td> <a href="https://codeforces.com/contest/1779/problem/A">Hall of Fame</a></td> <td>Level-3</td>
                 <td><a href="./Greedy/hall-of-fame.cpp">GNU C++14</a></td>
             </tr>
+            <tr>
+                <td>22</td> <td>Balanced Round</td> <td>Codeforces</td>
+                <td> <a href="https://codeforces.com/problemset/problem/1850/D">Balanced Round</a></td> <td>Level-3</td>
+                <td><a href="./Greedy/balance-round.cpp">GNU C++14</a></td>
+            </tr>
         </tbody>
     </table>
 </details>
